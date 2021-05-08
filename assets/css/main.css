@@ -1442,16 +1442,13 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				background-image: url("../../images/Katarzyna_Ostapowicz.jpg");
-				width: 10.5rem;
-				height: 10.5rem;
-				line-height: 10.5rem;
-				border: solid 1px #ffffff;
-				border-radius: 100%;
+				width: 4.75rem;
+				height: 4.75rem;
+				line-height: 4.75rem;
 			}
 
 				#header .logo .icon:before {
-					font-size: 2rem;
+					font-size: 1.75rem;
 				}
 
 			#header .content .inner {

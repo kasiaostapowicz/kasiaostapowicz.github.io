@@ -1291,6 +1291,7 @@ input, select, textarea {
 			}
 
 		#header .logo {
+			background-image: url("../../images/Katarzyna_Ostapowicz.jpg");
 			width: 10.5rem;
 			height: 10.5rem;
 			line-height: 10.5rem;

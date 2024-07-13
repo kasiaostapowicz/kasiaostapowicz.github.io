@@ -1,3 +1,4 @@
+/* Reduce the default font size for the entire text */
 body {
     font-family: 'Noto Sans JP', 'Noto Sans KR', sans-serif;
     background-color: #ffffff;
@@ -5,16 +6,25 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    font-size: 14px; /* Default font size for the entire text */
+    padding-top: 60px; /* Additional space for sticky header */
+    padding-bottom: 40px; /* Additional space for fixed footer */
 }
 
 header {
     background-color: #000000;
     padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header is always on top */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    text-align: center; /* Center-align the text */
 }
 
 nav ul li {
@@ -26,6 +36,7 @@ nav ul li a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 14px; /* Reduce font size in navigation */
 }
 
 section {
@@ -33,9 +44,16 @@ section {
     border-bottom: 1px solid #e6e6e6;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Noto Sans JP', 'Noto Sans KR', serif;
     margin-top: 0;
+    font-size: 24px; /* Reduce font size for h1 header */
+}
+
+h2 {
+    font-family: 'Noto Sans JP', 'Noto Sans KR', serif;
+    margin-top: 0;
+    font-size: 20px; /* Reduce font size for h2 header */
 }
 
 footer {
@@ -46,6 +64,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 1000; /* Ensure the footer is always on top */
 }
 
 a {

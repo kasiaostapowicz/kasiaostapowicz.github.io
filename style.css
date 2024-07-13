@@ -62,6 +62,10 @@ section {
     margin-top: 2rem; /* Add top margin to each section */
 }
 
+section h2 {
+    scroll-margin-top: 80px; /* Offset for sticky header */
+}
+
 h1 {
     font-family: 'Noto Sans JP', 'Noto Sans KR', serif;
     margin-top: 0;
@@ -70,7 +74,6 @@ h1 {
 
 h2 {
     font-family: 'Noto Sans JP', 'Noto Sans KR', serif;
-    margin-top: 0;
     font-size: 20px; /* Reduce font size for h2 header */
     color: #D3D3D3; /* light gray color for h2 */
     margin-top: 2rem; /* Add top margin to h2 headers */

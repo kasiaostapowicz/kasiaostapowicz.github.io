@@ -1,10 +1,18 @@
 /* Reduce the default font size for the entire text */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Noto Sans JP', 'Noto Sans KR', sans-serif;
     background-color: #ffffff;
     color: #000000;
-    margin: 0;
-    padding: 0;
+    /*margin: 0;*/
+    /*padding: 0;*/
     line-height: 1.6;
     font-size: 14px; /* Default font size for the entire text */
     padding-top: 40px; /* Additional space for sticky header */

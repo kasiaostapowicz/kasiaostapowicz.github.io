@@ -6,9 +6,9 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    font-size: 14px; /* Default font size for the entire text */
-    padding-top: 60px; /* Additional space for sticky header */
-    padding-bottom: 40px; /* Additional space for fixed footer */
+    font-size: 12px; /* Default font size for the entire text */
+    padding-top: 40px; /* Additional space for sticky header */
+    padding-bottom: 20px; /* Additional space for fixed footer */
 }
 
 header {

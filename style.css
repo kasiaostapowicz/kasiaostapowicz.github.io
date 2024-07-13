@@ -39,6 +39,10 @@ nav ul li a {
     font-size: 14px; /* Reduce font size in navigation */
 }
 
+/*ul li a:hover {
+    text-decoration: underline;
+} */
+
 section {
     padding: 2rem;
     border-bottom: 1px solid #e6e6e6;

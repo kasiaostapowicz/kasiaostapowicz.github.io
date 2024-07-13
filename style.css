@@ -60,6 +60,7 @@ section {
     padding: 2rem;
     border-bottom: 1px solid #e6e6e6;
     margin-top: 2rem; /* Add top margin to each section */
+    margin-bottom: 2rem;
 }
 
 section h1 {
@@ -73,14 +74,14 @@ section h2 {
 h1 {
     font-family: 'Noto Sans JP', 'Noto Sans KR', serif;
     font-size: 24px; /* Reduce font size for h1 header */
-    margin-top: 2rem; /* Add top margin to h1 headers */
+   /* margin-top: 2rem; /* Add top margin to h1 headers */ */
 }
 
 h2 {
     font-family: 'Noto Sans JP', 'Noto Sans KR', serif;
     font-size: 20px; /* Reduce font size for h2 header */
     color: #D3D3D3; /* light gray color for h2 */
-    margin-top: 2rem; /* Add top margin to h2 headers */
+   /* margin-top: 2rem; /* Add top margin to h2 headers */ */
 }
 
 footer {

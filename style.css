@@ -63,7 +63,7 @@ nav ul li a {
 
 main {
     flex: 1;
-    padding-top: 40px; /* Additional space for sticky header */
+    padding-top: 80px; /* Additional space for sticky header */
     padding-bottom: 80px; /* Additional space for footer */
 }
 
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 24px; /* Reduce font size for h1 header */
    /* margin-top: 2rem; /* Add top margin to h1 headers */ */
 }

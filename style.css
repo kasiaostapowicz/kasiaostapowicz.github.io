@@ -63,12 +63,12 @@ nav ul li a {
 
 main {
     flex: 1;
-    padding-top: 80px; /* Additional space for sticky header */
+    padding-top: 160px; /* Additional space for sticky header */
     padding-bottom: 80px; /* Additional space for footer */
 }
 
 section {
-    padding: 2rem;
+    padding: 1rem;
     border-bottom: 1px solid #e6e6e6;
     /* margin-top: 2rem; /* Add top margin to each section */ */
     /* margin-bottom: 2rem;*/

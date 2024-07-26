@@ -27,6 +27,17 @@ header {
     z-index: 1000; /* Ensure the header is always on top */
 }
 
+.header-content {
+    text-align: center; /* Center-align the header content */
+}
+
+header h1 {
+    font-family: 'Nunito Sans', sans-serif; /* Font Nunito Sans for heading */
+    color: #ffffff; /* Color to white */
+    margin: 0;
+    font-size: 24px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;

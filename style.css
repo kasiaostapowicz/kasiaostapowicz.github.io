@@ -7,7 +7,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Noto Sans JP', 'Noto Sans KR', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #ffffff;
     color: #000000;
     /*margin: 0;*/
@@ -72,15 +72,17 @@ section h2 {
 }
 
 h1 {
-    font-family: 'Noto Sans JP', 'Noto Sans KR', serif;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
     font-size: 24px; /* Reduce font size for h1 header */
    /* margin-top: 2rem; /* Add top margin to h1 headers */ */
 }
 
 h2 {
-    font-family: 'Noto Sans JP', 'Noto Sans KR', serif;
+    font-family: 'Times New Roman', Times, serif; 
+    margin-top: 2rem; /* Add top margin to h2 headers */
     font-size: 20px; /* Reduce font size for h2 header */
-    color: #D3D3D3; /* light gray color for h2 */
+    color: #333333; /* light gray color for h2 */
    /* margin-top: 2rem; /* Add top margin to h2 headers */ */
 }
 

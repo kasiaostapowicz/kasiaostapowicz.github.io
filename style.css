@@ -71,15 +71,18 @@ section h2 {
     scroll-margin-top: 80px; /* Offset for sticky header */
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif; /* Change font to Nunito Sans for headings */
+    color: #333333; /* Dark gray color for headings */
+}
+
 h1 {
-    font-family: 'Noto Serif', serif; 
     margin-top: 2rem;
     font-size: 24px; /* Reduce font size for h1 header */
    /* margin-top: 2rem; /* Add top margin to h1 headers */ */
 }
 
 h2 {
-    font-family: 'Noto Serif', serif;
     margin-top: 1rem; /* Add top margin to h2 headers */
     font-size: 20px; /* Reduce font size for h2 header */
     color: #333333; /* light gray color for h2 */

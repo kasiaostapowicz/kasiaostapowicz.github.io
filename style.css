@@ -7,7 +7,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Serif', serif;
     background-color: #ffffff;
     color: #000000;
     /*margin: 0;*/
@@ -72,14 +72,14 @@ section h2 {
 }
 
 h1 {
-    font-family: 'Playfair Display', serif; 
+    font-family: 'Noto Serif', serif; 
     margin-top: 2rem;
     font-size: 24px; /* Reduce font size for h1 header */
    /* margin-top: 2rem; /* Add top margin to h1 headers */ */
 }
 
 h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Serif', serif;
     margin-top: 1rem; /* Add top margin to h2 headers */
     font-size: 20px; /* Reduce font size for h2 header */
     color: #333333; /* light gray color for h2 */

@@ -2,6 +2,9 @@
 
 [![NINA Badge](https://img.shields.io/badge/NINA-Staff-blue)](https://www.nina.no/english/Contact/Employees/Employee-info?AnsattID=16669)
 [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=7dxBUIcAAAAJ&hl=en&oi=ao)
+[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=7dxBUIcAAAAJ&hl=en&oi=ao)
+[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=7dxBUIcAAAAJ&hl=en&oi=ao)
+[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=7dxBUIcAAAAJ&hl=en&oi=ao)
 
 I am currently a researcher at <a href="https://www.nina.no/english/About-NINA/Contact/Employees/Employee-info?AnsattID=16669"><b>the Norwegian Institute for Nature Research NINA</b></a>, with an academic foundation in geography and physics. My research expertise lies at the intersection of remote sensing, geoinformatics, artificial intelligence, machine learning, land system science, and landscape ecology. I have a particular focus on the dynamic environments of mountainous and polar regions, where I investigate land use changes, climate change impacts, and vegetation shifts.
 

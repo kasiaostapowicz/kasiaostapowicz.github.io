@@ -108,23 +108,18 @@ h2 {
 .about-me-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.about-me-content p {
+.about-me-text {
     flex: 1;
-    margin-right: 20px; /* Add some space between text and icons */
 }
 
 /* SDG icons styles */
 .sdg-icons {
     display: flex;
-    gap: 10px; /* Add space between the icons */
-}
-
-.sdg-icons img {
-    height: 50px; /* Adjust the size as needed */
-    width: auto;
+    flex-direction: column;
+    gap: 10px; /* Space between the icons */
 }
 
 /* Badge section styles */

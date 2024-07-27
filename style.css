@@ -101,7 +101,7 @@ h2 {
 }
 
 .spacer {
-    height: 120px; /* Adjust based on the height of your fixed header */
+    height: 80px; /* Adjust based on the height of your fixed header */
 }
 
 /* About Me section styles */
@@ -113,7 +113,7 @@ h2 {
 
 .about-me-text {
     flex: 0 0 90%; /* 90% width for the text */
-    margin-right: 160px; /* Add some space between text and icons */
+    margin-right: 1000px; /* Add some space between text and icons */
 }
 
 .sdg-icons {

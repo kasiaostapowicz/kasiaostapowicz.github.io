@@ -112,12 +112,12 @@ h2 {
 }
 
 .about-me-text {
-    flex: 0 0 75%; /* 75% width for the text */
+    flex: 0 0 90%; /* 90% width for the text */
     margin-right: 20px; /* Add some space between text and icons */
 }
 
 .sdg-icons {
-    flex: 0 0 25%; /* 25% width for the icons */
+    flex: 0 0 10%; /* 10% width for the icons */
     display: flex;
     flex-direction: column;
     align-items: flex-end;

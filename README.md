@@ -1,9 +1,9 @@
 ## Katarzyna Ostapowicz
 
 [![NINA Badge](https://img.shields.io/badge/NINA-Staff-blue)](https://www.nina.no/english/Contact/Employees/Employee-info?AnsattID=16669)
-[![Web_of_Science_Badge](https://img.shields.io/badge/Web-of-Science-lightgrey)](https://www.webofscience.com/wos/author/record/AAE-4380-2019)
-[![ORCID_Badge](https://img.shields.io/badge/ORCID-lightgrey)](https://orcid.org/0000-0002-4830-8202)
-[![Scopus_Badge](https://img.shields.io/badge/Scopus-lightgrey)](https://www.scopus.com/authid/detail.uri?authorId=8943458300)
+[![Web_of_Science_Badge](https://img.shields.io/badge/Web-Science-lightgrey)](https://www.webofscience.com/wos/author/record/AAE-4380-2019)
+[![ORCID_Badge](https://img.shields.io/badge/XXX-ORCID-lightgrey)](https://orcid.org/0000-0002-4830-8202)
+[![Scopus_Badge](https://img.shields.io/badge/XXX-Scopus-lightgrey)](https://www.scopus.com/authid/detail.uri?authorId=8943458300)
 [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=7dxBUIcAAAAJ&hl=en&oi=ao)
 
 I am currently a researcher at <a href="https://www.nina.no/english/About-NINA/Contact/Employees/Employee-info?AnsattID=16669"><b>the Norwegian Institute for Nature Research NINA</b></a>, with an academic foundation in geography and physics. My research expertise lies at the intersection of remote sensing, geoinformatics, artificial intelligence, machine learning, land system science, and landscape ecology. I have a particular focus on the dynamic environments of mountainous and polar regions, where I investigate land use changes, climate change impacts, and vegetation shifts.

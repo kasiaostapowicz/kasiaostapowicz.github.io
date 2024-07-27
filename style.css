@@ -121,19 +121,20 @@ h2 {
 .badges-section {
     display: flex;
     align-items: left;
-    gap: 10px;
+ /*   gap: 10px; */
 }
 
 .badges-section p {
     margin: 0;
     font-weight: bold;
+    margin-right: 10px; /* Space between text and badges */
 }
 
 .badges {
     display: flex;
     align-items: center;
     gap: 10px; /* Space between the badges */
-    margin-top: 10px; /* Space above the badges */
+  /*    margin-top: 10px; */ /* Space above the badges */
 }
 
 .badges img {

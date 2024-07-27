@@ -125,7 +125,7 @@ h2 {
 }
 
 .sdg-icons img {
-    width: 40px; /* Small size for the icons */
+    width: 100%; /* Adjust icons to fit the column width */
     height: auto;
 }
 

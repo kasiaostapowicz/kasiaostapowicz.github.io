@@ -95,7 +95,7 @@ h1 {
 
 h2 {
     margin-top: 1rem; /* Add top margin to h2 headers */
-    font-size: 20px; /* Reduce font size for h2 header */
+    font-size: 16px; /* Reduce font size for h2 header */
     color: #333333; /* light gray color for h2 */
    /* margin-top: 2rem; /* Add top margin to h2 headers */ */
 }

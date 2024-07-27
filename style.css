@@ -130,8 +130,8 @@ h2 {
 }
 
 .badges img {
-    height: 30px; /* Adjust the size of the badges to be the same */
-    width: 200px; /* Ensure all badges have the same width */
+    height: 20px; /* Adjust the size of the badges to be the same */
+    width: 150px; /* Ensure all badges have the same width */
 }
 
 footer {

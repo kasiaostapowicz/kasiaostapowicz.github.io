@@ -119,7 +119,14 @@ h2 {
 
 /* Badge section styles */
 .badges-section {
-    text-align: left;
+    display: flex;
+    align-items: left;
+    gap: 10px;
+}
+
+.badges-section p {
+    margin: 0;
+    font-weight: bold;
 }
 
 .badges {
@@ -131,7 +138,7 @@ h2 {
 
 .badges img {
     height: 20px; /* Adjust the size of the badges to be the same */
-    width: 150px; /* Ensure all badges have the same width */
+    width: auto; /* Ensure all badges have the same width */
 }
 
 footer {

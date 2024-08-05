@@ -14,9 +14,7 @@ body {
     /*padding: 0;*/
     line-height: 1.6;
     font-size: 14px; /* Default font size for the entire text */
-    /* padding-top: 20px; /* Additional space for sticky header */ */
-    /* padding-bottom: 20px; /* Additional space for fixed footer */ */
-}
+ }
 
 header {
     background-color: #000000;
@@ -72,6 +70,11 @@ section {
     border-bottom: 1px solid #e6e6e6;
     margin-top: 2rem; /* Add top margin to each section */ 
     /* margin-bottom: 2rem;*/
+}
+
+section:target {
+    padding-top: 100px; /* Space to avoid overlap by fixed header */
+    margin-top: -100px; /* Negative margin to counteract padding-top */
 }
 
  /* section h1 {

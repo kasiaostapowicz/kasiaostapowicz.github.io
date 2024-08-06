@@ -114,13 +114,13 @@ h2 {
 .about-me-content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center /* flex-start; */
 }
 
 .profile-image img {
     width: 150px; /* Size of the profile image */
     height: 150px; /* Ensure it is square */
-    border-radius: 10%; /* Make the image circular */
+    border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image covers the entire area */
     margin-right: 20px; /* Space between image and text */
 }
@@ -128,6 +128,7 @@ h2 {
 .about-me-text {
     flex: 0 0 70%; /* 70% width for the text */
     margin-right: 160px; /* Add some space between text and icons */
+    margin-left: 160px; /* Add some space between text and icons */
 }
 
 .sdg-icons {

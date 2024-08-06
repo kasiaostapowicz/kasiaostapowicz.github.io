@@ -126,47 +126,9 @@ h2 {
 }
 
 .about-me-text {
-    flex: 0 0 70%; /* 70% width for the text */
+    flex: 0 0 90%; /* 90% width for the text */
     margin-right: 160px; /* Add some space between text and icons */
     margin-left: 160px; /* Add some space between text and icons */
-}
-
-.sdg-icons {
-    flex: 0 0 10%; /* 10% width for the icons */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center-align icons in the column */
-    gap: 10px; /* Space between the icons */
-}
-
-.sdg-icons img {
-    width: 100%; /* Adjust icons to fit the column width */
-    height: auto;
-}
-
-/* Badge section styles */
-.badges-section {
-    display: flex;
-    align-items: left;
- /*   gap: 10px; */
-}
-
-.badges-section p {
-    margin: 0;
-    font-weight: bold;
-    margin-right: 160px; /* Space between text and badges */
-}
-
-.badges {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Space between the badges */
-  /*    margin-top: 10px; */ /* Space above the badges */
-}
-
-.badges img {
-    height: 20px; /* Adjust the size of the badges to be the same */
-    width: auto; /* Ensure all badges have the same width */
 }
 
 /* Footer styles */

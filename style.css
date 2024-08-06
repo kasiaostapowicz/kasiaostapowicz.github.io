@@ -32,7 +32,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Noto Serif', serif; /* Font Noto Serif for heading */
+    font-family: 'Nunito Sans', sans-serif; /* Font Noto Serif for heading */
     color: #ffffff; /* Color to white */
     margin: 0;
     font-size: 24px;

@@ -131,24 +131,17 @@ h2 {
     margin-left: 160px; /* Add some space between text and icons */
 }
 
-.sdg-icons {  
-    flex: 0 0 10%; /* 10% width for the icons */  
-    display: flex;  
-    flex-direction: column;  
-    align-items: center; /* flex-end;*/  
-    gap: 10px; /* Space between the icons */ 
-}  
-
-.sdg-icons img {
-    width: 90%; /* Adjust icons to fit the column width */
-    height: auto;
-  }
+.sdg-icons {
+    display: flex;
+    justify-content: center; /* Center-align icons horizontally */
+    gap: 10px; /* Space between the icons */
+}
 
 /* Badge section styles */
 .badges-section {
     display: flex;
-    align-items: left;
- /*   gap: 10px; */
+    align-items: center;
+    margin-top: 1rem; /* Adjust margin as needed */
 }
 
 .badges-section p {
@@ -161,14 +154,14 @@ h2 {
     display: flex;
     align-items: center;
     gap: 10px; /* Space between the badges */
-  /*    margin-top: 10px; */ /* Space above the badges */
 }
 
 .badges img {
-    height: 20px; /* Adjust the size of the badges to be the same */
-    width: auto; /* Ensure all badges have the same width */
+    height: 30px; /* Adjust the size of the badges to be the same */
+    width: auto;
 }
 
+/* Footer styles */
 footer {
     background-color: #001f3f; /* Dark navy blue background. odl color #000000; */
     color: #ffffff;

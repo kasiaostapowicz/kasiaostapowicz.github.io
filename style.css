@@ -18,6 +18,7 @@ body {
     font-size: 14px; /* Default font size for the entire text */
  }
 
+/* Header styles */
 header {
     background-color: #001f3f; /* Dark navy blue background, old color #000000;*/
     padding: 1rem;
@@ -116,8 +117,16 @@ h2 {
     align-items: flex-start;
 }
 
+.profile-image img {
+    width: 150px; /* Size of the profile image */
+    height: 150px; /* Ensure it is square */
+    border-radius: 10%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    margin-right: 20px; /* Space between image and text */
+}
+
 .about-me-text {
-    flex: 0 0 90%; /* 90% width for the text */
+    flex: 0 0 70%; /* 70% width for the text */
     margin-right: 160px; /* Add some space between text and icons */
 }
 

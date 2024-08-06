@@ -154,7 +154,7 @@ h2 {
 .badges-section p {
     margin: 0;
     font-weight: bold;
-    margin-right: 10px; /* Space between text and badges */
+    margin-right: 160px; /* Space between text and badges */
 }
 
 .badges {

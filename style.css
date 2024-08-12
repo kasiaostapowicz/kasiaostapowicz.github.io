@@ -1,51 +1,53 @@
+/* Global styles */
 html, body {
- height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Nunito Sans', sans-serif; /* 'Noto Serif', serif; */
-    /* background-color: #ffffff;
-    color: #000000; */
+    font-family: 'Nunito Sans', sans-serif; /* Use Nunito Sans for all text */
     background-color: #f2f2f2; /* Light gray background for the page */
     color: #333333; /* Dark gray color for text */
-    /*margin: 0;*/
-    /*padding: 0;*/
     line-height: 1.6;
     font-size: 14px; /* Default font size for the entire text */
 }
 
 /* Header styles */
 header {
-    background-color: #001f3f; /* Dark navy blue background, old color #000000;*/
+    background-color: #001f3f; /* Dark navy blue background */
     padding: 1rem;
+    width: 100%;
     position: fixed;
     top: 0;
-    width: 100%;
     z-index: 1000; /* Ensure the header is always on top */
 }
+
 .header-content {
     text-align: center; /* Center-align the header content */
 }
 
 header h1 {
-    font-family: 'Nunito Sans', sans-serif; /* Font Noto Serif for heading */
-    color: #ffffff; /* Color to white */
+    font-family: 'Nunito Sans', sans-serif; /* Ensure header uses Nunito Sans */
+    color: #ffffff; /* White color for text */
     margin: 0;
     font-size: 24px;
 }
-/* Navigation Styles */
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: center; /* Center-align the text */
 }
+
 nav ul li {
     display: inline;
     margin-right: 1rem;
 }
+
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
@@ -53,10 +55,7 @@ nav ul li a {
     font-size: 14px; /* Reduce font size in navigation */
 }
 
-/*ul li a:hover {
-    text-decoration: underline;
-} */
-
+/* Main content styles */
 main {
     flex: 1;
     padding-top: 100px; /* Additional space for sticky header */
@@ -66,8 +65,7 @@ main {
 section {
     padding: 2rem;
     border-bottom: 1px solid #e6e6e6;
-    margin-top: 2rem; /* Add top margin to each section */ 
-    /* margin-bottom: 2rem;*/
+    margin-top: 2rem; /* Add top margin to each section */
 }
 
 section:target {
@@ -75,40 +73,30 @@ section:target {
     margin-top: -100px; /* Negative margin to counteract padding-top */
 }
 
- /* section h1 {
-    scroll-margin-top: 100px; /* Offset for sticky header */ 
-}*/
-
 section h2 {
     scroll-margin-top: 100px; /* Offset for sticky header */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito Sans', sans-serif; /* font Nunito Sans for headings */
+    font-family: 'Nunito Sans', sans-serif; /* Use Nunito Sans for headings */
     color: #333333; /* Dark gray color for headings */
 }
 
 h1 {
-    margin-top: 0 /* 1rem;*/
+    margin-top: 0;
     font-size: 24px; /* Reduce font size for h1 header */
-   /* margin-top: 2rem; /* Add top margin to h1 headers */ */
 }
 
 h2 {
-    margin-top: 1rem; /* Add top margin to h2 headers */
-    font-size: 16px; /* Reduce font size for h2 header */
-    color: #333333; /* light gray color for h2 */
-   /* margin-top: 2rem; /* Add top margin to h2 headers */ */
-}
-.spacer {
-    height: 80px; /* Adjust based on the height of your fixed header */
+    margin-top: 2rem; /* Add top margin to h2 headers */
+    font-size: 20px; /* Reduce font size for h2 header */
 }
 
 /* About Me section styles */
 .about-me-content {
     display: flex;
     justify-content: space-between;
-    align-items: center /* flex-start; */
+    align-items: center; /* Align items vertically in the center */
 }
 
 .profile-image img {
@@ -120,25 +108,58 @@ h2 {
 }
 
 .about-me-text {
-    flex: 0 0 90%; /* 90% width for the text */
-    margin-right: 160px; /* Add some space between text and icons */
-    margin-left: 160px; /* Add some space between text and icons */
+    flex: 0 0 50%; /* 50% width for the text */
+    margin-right: 20px; /* Add more space between text and icons */
+}
+
+.sdg-icons {
+    flex: 0 0 25%; /* 25% width for the icons */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align icons in the column */
+    gap: 10px; /* Space between the icons */
+}
+
+.sdg-icons img {
+    width: 100%; /* Adjust icons to fit the column width */
+    height: auto;
+}
+
+/* Badge section styles */
+.badges-section {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem; /* Adjust margin as needed */
+}
+
+.badges-section p {
+    margin: 0;
+    font-weight: bold;
+    margin-right: 10px; /* Space between text and badges */
+}
+
+.badges {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the badges */
+}
+
+.badges img {
+    height: 30px; /* Adjust the size of the badges to be the same */
+    width: auto;
 }
 
 /* Footer styles */
 footer {
-    background-color: #001f3f; /* Dark navy blue background. odl color #000000; */
+    background-color: #001f3f; /* Dark navy blue background */
     color: #ffffff;
-text-align: center;
+    text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    z-index: 1000; /* Ensure the footer is always on top */
 }
 
 a {
-    color: #333333; /* Dark gray color for links #000000; */
+    color: #333333; /* Dark gray color for links */
     text-decoration: none;
 }
 

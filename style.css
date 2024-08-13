@@ -59,7 +59,7 @@ nav ul li a {
 main {
     flex: 1;
     padding-top: 100px; /* Additional space for sticky header */
-    padding-bottom: 80px; /* Additional space for footer */
+    padding-bottom: 100px; /* Additional space for footer */
 }
 
 section {

@@ -32,5 +32,4 @@
  	Committed to the education and advancement of future scientists, I have a strong background in teaching and mentoring students at undergraduate, master’s, doctoral, and postdoctoral levels. I guide young researchers through their academic and professional development, fostering a supportive and intellectually stimulating environment that promotes excellence and innovation.</br>
         <p></p>
 	For a detailed overview of my employment history, please visit <a href= https://orcid.org/0000-0002-4830-8202 target="_blank" ><b>here</b></a>
-</p>	
-								
+</p>

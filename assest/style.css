@@ -111,10 +111,11 @@ h2 {
     display: flex;
     align-items: center;
     flex-direction: row; /* Ensure the image and text are in a row */
+    gap: 20px; /* Add gap between image and text */
 }
 
 .profile-image {
-    margin-right: 20px; /* Space between image and text */
+    flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 .profile-image img {
@@ -126,6 +127,7 @@ h2 {
 
 .profile-text {
     flex: 1; /* Allow the text to take up the remaining space */
+    max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
 }
 
 .sdg-icons {

@@ -106,12 +106,24 @@ h2 {
     align-items: center; /* Align items vertically in the center */
 }
 
+.profile-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.profile-image {
+    margin-right: 20px; /* Space between image and text */
+}
+
 .profile-image img {
     width: 150px; /* Size of the profile image */
     height: 150px; /* Ensure it is square */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image covers the entire area */
-    margin-right: 20px; /* Space between image and text */
+}
+
+.profile-text {
+    flex: 1; /* Allow the text to take up the remaining space */
 }
 
 .about-me-text {

@@ -165,7 +165,7 @@ h2 {
 .badges-section {
     display: flex;
     align-items: center;
-    margin-top: 1rem; /* Adjust margin as needed */
+    margin-top: 2rem; /* Adjust margin as needed */
 }
 
 .badges-section p {

@@ -1,5 +1,7 @@
 ## Katarzyna Ostapowicz
 
+<p><strong>Advancing Remote Sensing, AI, and Land System Science</strong></p> 
+
 [![NINA Badge](https://img.shields.io/badge/NINA-Staff-blue)](https://www.nina.no/english/Contact/Employees/Employee-info?AnsattID=16669)
 [![Clarivate_Web_of_Science_Badge](https://img.shields.io/badge/Clarivate-WoS-lightgrey)](https://www.webofscience.com/wos/author/record/AAE-4380-2019)
 [![OR_CID_Badge](https://img.shields.io/badge/ORC-ID-lightgrey)](https://orcid.org/0000-0002-4830-8202)
@@ -8,7 +10,6 @@
 
 <p>
 	As a researcher specialising in remote sensing, geoinformatics, data science, and artificial intelligence, I integrate advanced methodologies to address complex challenges within land system science and sustainability science. With an academic foundation in geography and physics, my interdisciplinary expertise enables the exploration of land cover and land use change, biodiversity transformations, climate change impacts, human-environment interactions, and carbon cycling in both blue and green ecosystems. My research particularly focuses on the sensitive ecosystems of mountainous and polar regions.</br>
-	<p></p>
  	<h2>Key Expertise</h2>
             <ul>
                 <li><strong>Remote sensing and geoinformatics</strong> for land system science</li>

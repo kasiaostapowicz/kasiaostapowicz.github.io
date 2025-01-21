@@ -65,7 +65,7 @@ nav ul li a {
 /* Main content styles */
 main {
     flex: 1;
-    padding-top: 120px; /* Ensure enough space for the fixed header */
+    padding-top: 60px; /* Ensure enough space for the fixed header */
     padding-bottom: 100px; /* Additional space for footer */
     margin-top: 0; /* Remove margin-top to avoid additional spacing issues */
 }
@@ -77,7 +77,7 @@ section {
 }
 
 section:first-of-type {
-    margin-top: 3rem; /* Ensure the first section has enough space from the header */
+    margin-top: 1.5rem; /* Ensure the first section has enough space from the header */
 }
 
 /*section h1, section h2 {

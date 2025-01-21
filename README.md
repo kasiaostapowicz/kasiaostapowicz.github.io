@@ -16,6 +16,8 @@
                 <li><strong>AI and machine learning applications</strong> in spatial analysis</li>
                 <li><strong>Sustainability science</strong> focused on mountainous and polar regions</li>
                 <li><strong>Innovative approaches</strong> to studying land use and biodiversity</li>
+		<li><strong>Project Management</strong></li>
+                <li><strong>Academic Teaching and Mentorship</strong></li>
             </ul>
 	<h2>Research Areas</h2>
             <ul>

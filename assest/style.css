@@ -80,19 +80,6 @@ section:first-of-type {
     margin-top: 1.5rem; /* Ensure the first section has enough space from the header */
 }
 
-/*section h1, section h2 {
-    margin-top: 1rem; /* Add additional margin between header and sections */
-}
-
-/*section:target {
-    padding-top: 100px; /* Space to avoid overlap by fixed header */
-    margin-top: -100px; /* Negative margin to counteract padding-top */
-}*/
-
-/*section h2 {
-    scroll-margin-top: 100px; /* Offset for sticky header */
-}*/
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito Sans', sans-serif; /* Use Nunito Sans for headings */
     color: #333333; /* Dark gray color for headings */

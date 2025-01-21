@@ -25,10 +25,13 @@
                 <li><strong>Sustainability Science:</strong> Designing frameworks for ecosystem resilience and policy support.</li>
                 <li><strong>Climate Change Impacts:</strong> Modelling global warming effects on ecosystems and landscapes.</li>
 	    </ul>
-	I have experience leading both reasearch lab (EO-Change Lab.), and international and national research and educational projects and networks. My work encompasses scientific and educational initiatives, fostering interdisciplinary research, teaching, and knowledge exchange. I have successfully managed projects such as TRACE and RS4FOR, coordinating multidisciplinary teams to achieve project objectives. Additionally, I collaborate with global scientific and educational networks, enhancing cross-disciplinary research and facilitating knowledge transfer.</br>
-        <p></p>
-	I have contributed to projects that bridge academic research with practical applications, driving innovation and sustainable practices across various industries. Engagement with public and private sector organisations has enabled the translation of scientific insights into actionable solutions, benefiting both the scientific community and industry stakeholders.</br>
-        <p></p>
- 	Committed to the education and advancement of future scientists, I have a strong background in teaching and mentoring students at undergraduate, master’s, doctoral, and postdoctoral levels. I guide young researchers through their academic and professional development, fostering a supportive and intellectually stimulating environment that promotes excellence and innovation.</br>
-        <p></p>
+	<h2>Project Management, Teaching and Mentorship</h2>	
+			I have experience leading both research labs (EO-Change Lab.) and international and national research and educational projects and networks. My work encompasses scientific and educational initiatives, fostering interdisciplinary research, teaching, and knowledge exchange. I have successfully managed projects such as TRACE and RS4FOR, coordinating multidisciplinary teams to achieve project objectives. Additionally, I collaborate with global scientific and educational networks, enhancing cross-disciplinary research and facilitating knowledge transfer.</br>
+			<p></p>
+	    	<h3>Applied Research and Industry Collaboration</h3>
+			I have contributed to projects that bridge academic research with practical applications, driving innovation and sustainable practices across various industries. Engagement with public and private sector organisations has enabled the translation of scientific insights into actionable solutions, benefiting both the scientific community and industry stakeholders.</br>
+			<p></p>
+	    	<h3>Commitment to Education and Mentorship</h3>
+			Committed to the education and advancement of future scientists, I have a strong background in teaching and mentoring students at undergraduate, master’s, doctoral, and postdoctoral levels. I guide young researchers through their academic and professional development, fostering a supportive and intellectually stimulating environment that promotes excellence and innovation.</br>
+			<p></p>
 </p>

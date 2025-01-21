@@ -118,6 +118,7 @@ h2 {
 .profile-container {
     display: flex;
     align-items: center; /* Align items vertically in the center */
+    flex-direction: row; /* Ensure the image and text are in a row */
 }
 
 .profile-image {

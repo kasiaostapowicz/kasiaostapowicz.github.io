@@ -36,6 +36,13 @@ header h1 {
     font-size: 24px;
 }
 
+header h2 {
+    font-family: 'Nunito Sans', sans-serif; /* Ensure header uses Nunito Sans */
+    color: #ffffff; /* White color for text */
+    margin: 0;
+    font-size: 20px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;

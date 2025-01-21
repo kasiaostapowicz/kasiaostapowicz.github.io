@@ -1,4 +1,4 @@
-## Katarzyna Ostapowicz
+## Katarzyna Ostapowicz - Personal Webpage
 
 <h2><strong>Advancing Remote Sensing, AI, and Land System Science</strong></h2> 
 

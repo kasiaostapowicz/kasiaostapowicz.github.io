@@ -65,7 +65,7 @@ nav ul li a {
 /* Main content styles */
 main {
     flex: 1;
-    padding-top: 100px; /* Additional space for sticky header */
+    padding-top: 70px; /* Additional space for sticky header */
     padding-bottom: 100px; /* Additional space for footer */
 }
 

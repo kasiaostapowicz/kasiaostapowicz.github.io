@@ -148,11 +148,16 @@ h2 {
 
 .contact-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
     gap: 20px; /* Add gap between contact info and map */
     background-color: #fff; /* Add light background color */
     padding: 20px; /* Add padding around the container */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for light effect */
+}
+
+.profile-text, .map-container {
+    flex: 1;
 }
 
 .map-container iframe {

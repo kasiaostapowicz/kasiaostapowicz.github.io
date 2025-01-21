@@ -96,7 +96,7 @@ section:first-of-type {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito Sans', sans-serif; /* Use Nunito Sans for headings */
     color: #333333; /* Dark gray color for headings */
-}*/
+}
 
 h1 {
     margin-top: 1rem; /* Ensure there is space between the header and the first heading */
@@ -104,7 +104,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 2rem; /* Add top margin to h2 headers */
+    margin-top: 1rem; /* Add top margin to h2 headers */
     font-size: 20px; /* Reduce font size for h2 header */
 }
 

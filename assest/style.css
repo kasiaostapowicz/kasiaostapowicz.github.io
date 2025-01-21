@@ -102,9 +102,14 @@ h2 {
     align-items: center; /* Align items vertically in the center */
 }
 
+.about-me-text {
+    flex: 0 0 50%; /* 50% width for the text */
+    margin-right: 20px; /* Add more space between text and icons */
+}
+
 .profile-container {
     display: flex;
-    align-items: center; /* Align items vertically in the center */
+    align-items: center;
     flex-direction: row; /* Ensure the image and text are in a row */
 }
 
@@ -121,11 +126,6 @@ h2 {
 
 .profile-text {
     flex: 1; /* Allow the text to take up the remaining space */
-}
-
-.about-me-text {
-    flex: 0 0 50%; /* 50% width for the text */
-    margin-right: 20px; /* Add more space between text and icons */
 }
 
 .sdg-icons {

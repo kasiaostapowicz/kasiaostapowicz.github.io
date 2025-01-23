@@ -133,7 +133,7 @@ h2 {
     max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
 }
 
-.enlarged-image-tow-times {
+.enlarged-image-two-times {
     width: 300px; /* New width for the enlarged image */
     height: 300px; /* New height for the enlarged image */
     object-fit: cover; /* Ensure the image covers the entire area */

@@ -133,6 +133,16 @@ h2 {
     max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
 }
 
+.profile-text-without-image {
+    text-align: justify;
+    flex: 1; /* Allow the text to take up the remaining space */
+    display: flex;
+    flex-direction: column; /* Ensure text is displayed in a column */
+    justify-content: space-between; /* Stretch the text to fill the container */
+    max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
+    text-align: justify; /* Justify text to both sides */
+}
+
 .enlarged-image-two-times {
     width: 300px; /* New width for the enlarged image */
     height: 300px; /* New height for the enlarged image */

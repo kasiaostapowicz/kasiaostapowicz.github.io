@@ -140,7 +140,8 @@ h2 {
     flex-direction: column; /* Ensure text is displayed in a column */
     justify-content: space-between; /* Stretch the text to fill the container */
     max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
-    text-align: justify; /* Justify text to both sides */
+    height: 100%; /* Ensure the text container takes full height */
+    padding: 10px; /* Add padding for better readability */
 }
 
 .enlarged-image-two-times {

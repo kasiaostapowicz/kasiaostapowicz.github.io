@@ -5,6 +5,24 @@ html, body {
     padding: 0;
 }
 
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .badges-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .badges {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .badges img {
+        height: 30px; /* Slightly increase size for better visibility */
+        margin: 5px;
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,6 +31,7 @@ body {
     color: #333333; /* Dark gray color for text */
     line-height: 1.6;
     font-size: 14px; /* Default font size for the entire text */
+    min-height: 100vh; /* Ensures the body takes full height */
 }
 
 /* Header styles */
@@ -225,6 +244,7 @@ footer {
     text-align: center;
     padding: 1rem 0;
     width: 100%;
+    margin-top: auto; /* Pushes footer to the bottom if the content is short */
 }
 
 a {

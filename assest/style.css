@@ -110,7 +110,7 @@ h2 {
 
 .image-text-box .profile-image {
     flex-shrink: 0;
-    margin-right: 10px; /* Mały margines między obrazem a tekstem */
+    margin-right: 20px; /* margine between image and text */
 }
 
 .image-text-box .profile-text {
@@ -128,11 +128,10 @@ h2 {
     text-align: justify;
 }
 
-/* Contact-box style*/
 .contact-box {
     display: flex;
+    flex-direction: column; /* Zmień układ na kolumny */
     align-items: stretch;
-    justify-content: space-between;
     margin: 20px 0;
     padding: 10px;
     border: 1px solid #ddd;
@@ -140,11 +139,12 @@ h2 {
     overflow: hidden;
 }
 
-.contact-box .contact-text,
+.contact-box .contact-text {
+    margin-bottom: 15px; /* Dodaj odstęp między tekstem a mapą */
+}
+
 .contact-box .contact-map {
-    flex: 1;
-    margin: 0 10px;
-    width: 50%; /* Ustaw szerokość na 50% dla każdego elementu */
+    flex: none; /* Usuń elastyczność mapy */
 }
 
 /* profile text and image styles */

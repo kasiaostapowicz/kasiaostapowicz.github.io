@@ -128,6 +128,7 @@ h2 {
     text-align: justify;
 }
 
+/* Contact-box style*/
 .contact-box {
     display: flex;
     flex-direction: column; /* Zmień układ na kolumny */
@@ -141,11 +142,14 @@ h2 {
 
 .contact-box .contact-text {
     margin-bottom: 15px; /* Dodaj odstęp między tekstem a mapą */
+    text-align: justify;
 }
 
 .contact-box .contact-map {
+    margin: 0 10px;
     flex: none; /* Usuń elastyczność mapy */
 }
+
 
 /* profile text and image styles */
 .profile-image {

@@ -147,7 +147,6 @@ h2 {
 }
 
 /* Contact-box style*/
-/* Contact-box style */
 .contact-box {
     display: flex;
     flex-direction: column; 
@@ -160,9 +159,17 @@ h2 {
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-.contact-box .contact-text,
+.contact-box .contact-text {
+    margin-bottom: 15px; /* Margin between text and map */
+    text-align: justify;
+    width: 100%; /* Ensure full width for text */
+}
+
 .contact-box .contact-map {
-    width: 100%; /* Ensure full width for text and map */
+    width: 100%; /* Ensure full width for map */
+    height: 400px; /* Set a fixed height for the map */
+    border: 0; /* Remove any default border from the iframe */
+    overflow: hidden; /* Prevent map content from being cut off */
 }
 
 /* sgd icons styles */

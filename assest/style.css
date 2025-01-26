@@ -128,6 +128,22 @@ h2 {
     text-align: justify;
 }
 
+.profile-image {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.profile-image img {
+    width: 150px; /* Size of the profile image */
+    height: 150px; /* Ensure it is square */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.profile-text {
+    flex: 1; /* Allow the text to take up the remaining space */
+    max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
+}
+
 /* Styl dla text-box */
 .text-box {
     margin: 20px 0;

@@ -166,7 +166,7 @@ h2 {
 }
 
 .contact-box .contact-map {
-    flex: 1; /* Allow the map to take up available space */
+    flex-grow: 1; /* Allow the map to take up available space */
     width: 100%; /* Ensure full width for map */
     height: 400px; /* Set a fixed height for the map */
     border: 0; /* Remove any default border from the iframe */
@@ -178,6 +178,7 @@ h2 {
     height: 100%; /* Ensure iframe takes full height */
     border: 0; /* Remove any default border from the iframe */
 }
+
 
 /* sgd icons styles */
 .sdg-icons {

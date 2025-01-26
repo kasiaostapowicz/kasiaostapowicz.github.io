@@ -107,48 +107,61 @@ h2 {
     margin-right: 20px; /* Add more space between text and icons */
 }
 
-.profile-container {
+.image-text-box {
     display: flex;
     align-items: center;
-    flex-direction: row; /* Ensure the image and text are in a row */
-    gap: 20px; /* Add gap between image and text */
-    background-color: #fff; /* Add light background color */
-    padding: 20px; /* Add padding around the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for light effect */
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
-.profile-image {
-    flex-shrink: 0; /* Prevent the image from shrinking */
+.image-text-box .profile-image,
+.image-text-box .profile-text {
+    flex: 1;
+    margin: 10px;
 }
 
-.profile-image img {
-    width: 150px; /* Size of the profile image */
-    height: 150px; /* Ensure it is square */
-    border-radius: 50%; /* Make the image circular */
-    object-fit: cover; /* Ensure the image covers the entire area */
-}
-
-.profile-text {
-    flex: 1; /* Allow the text to take up the remaining space */
-    max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
-}
-
-.profile-text-without-image {
+.image-text-box .profile-text {
     text-align: justify;
-    flex: 1; /* Allow the text to take up the remaining space */
-    display: flex;
-    flex-direction: column; /* Ensure text is displayed in a column */
-    justify-content: space-between; /* Stretch the text to fill the container */
-    max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
-    padding: 10px; /* Add padding for better readability */
 }
 
-.enlarged-image-two-times {
-    width: 300px; /* New width for the enlarged image */
-    height: 300px; /* New height for the enlarged image */
-    object-fit: cover; /* Ensure the image covers the entire area */
-    border-radius: 10px; /* Rounded corners for the enlarged image */
+/* Styl dla text-box */
+.text-box {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: justify;
 }
+
+/* Styl dla contact-box */
+.contact-box {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.contact-box .contact-text,
+.contact-box .contact-map {
+    flex: 1;
+    margin: 10px;
+}
+
+.contact-box .contact-map iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 
 .sdg-icons {
     flex: 0 0 25%; /* 25% width for the icons */

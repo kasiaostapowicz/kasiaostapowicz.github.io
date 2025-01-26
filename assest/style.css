@@ -173,6 +173,12 @@ h2 {
     overflow: hidden; /* Prevent map content from being cut off */
 }
 
+.contact-box .contact-map iframe {
+    width: 100%; /* Ensure iframe takes full width */
+    height: 100%; /* Ensure iframe takes full height */
+    border: 0; /* Remove any default border from the iframe */
+}
+
 /* sgd icons styles */
 .sdg-icons {
     flex: 0 0 25%; /* 25% width for the icons */

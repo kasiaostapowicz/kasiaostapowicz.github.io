@@ -139,7 +139,7 @@ h2 {
 /* Text-box style*/
 .text-box {
     margin: 20px 0;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -156,18 +156,13 @@ h2 {
     padding: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    width: 100%; /* Ensure full width for the contact-box */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-.contact-box .contact-text {
-    margin-bottom: 15px; /* Margin between text and map */
-    text-align: justify;
-    width: 100%; /* Ensure full width for text */
-}
-
+.contact-box .contact-text,
 .contact-box .contact-map {
-    width: 100%; /* Ensure full width for map */
-    height: 400px; /* Set a fixed height for the map */
+    width: 100%; /* Ensure full width for text and map */
 }
 
 /* sgd icons styles */

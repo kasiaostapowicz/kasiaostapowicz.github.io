@@ -63,6 +63,7 @@ nav ul li a {
 }
 
 /* Main content styles */
+
 main {
     flex: 1;
     padding-top: 120px; /* Ensure enough space for the fixed header */
@@ -70,6 +71,7 @@ main {
     margin-top: 0; /* Remove margin-top to avoid additional spacing issues */
 }
 
+/* Sections content styles */
 section {
     padding: 2rem;
     border-bottom: 1px solid #e6e6e6;
@@ -95,18 +97,7 @@ h2 {
     font-size: 20px; /* Reduce font size for h2 header */
 }
 
-/* About Me section styles */
-.about-me-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Align items vertically in the center */
-}
-
-.about-me-text {
-    flex: 0 0 50%; /* 50% width for the text */
-    margin-right: 20px; /* Add more space between text and icons */
-}
-
+/* Image-Text-box style*/
 .image-text-box {
     display: flex;
     align-items: center;
@@ -125,7 +116,10 @@ h2 {
 }
 
 .image-text-box .profile-text {
+    margin-left: 20px; /* Dodaj margines tylko z lewej strony, aby tekst zaczynał się zaraz za obrazem */
     text-align: justify;
+    flex: 1;
+    max-width: calc(100% - 170px); /* Upewnij się, że tekst nie wychodzi poza prostokąt */
 }
 
 .profile-image {
@@ -144,7 +138,7 @@ h2 {
     max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
 }
 
-/* Styl dla text-box */
+/* Text-box style*/
 .text-box {
     margin: 20px 0;
     padding: 10px;
@@ -154,7 +148,6 @@ h2 {
     text-align: justify;
 }
 
-/* Styl dla contact-box */
 .contact-box {
     display: flex;
     align-items: stretch;
@@ -169,16 +162,11 @@ h2 {
 .contact-box .contact-text,
 .contact-box .contact-map {
     flex: 1;
-    margin: 10px;
+    margin: 0 10px;
+    width: 50%; /* Ustaw szerokość na 50% dla każdego elementu */
 }
 
-.contact-box .contact-map iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-
+/* sgd icons styles */
 .sdg-icons {
     flex: 0 0 25%; /* 25% width for the icons */
     display: flex;
@@ -190,26 +178,6 @@ h2 {
 .sdg-icons img {
     width: 100%; /* Adjust icons to fit the column width */
     height: auto;
-}
-
-.contact-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 20px; /* Add gap between contact info and map */
-    background-color: #fff; /* Add light background color */
-    padding: 20px; /* Add padding around the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for light effect */
-}
-
-.profile-text, .map-container {
-    flex: 1;
-}
-
-.map-container iframe {
-    width: 100%;
-    height: 400px;
-    border: 0;
 }
 
 /* Badge section styles */

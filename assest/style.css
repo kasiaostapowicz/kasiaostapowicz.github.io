@@ -26,7 +26,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Nunito Sans', sans-serif; /* Use Nunito Sans for all text */
+    font-family: 'Roboto', sans-serif; /* Use Roboto for all text */
     background-color: #f2f2f2; /* Light gray background for the page */
     color: #333333; /* Dark gray color for text */
     line-height: 1.6;
@@ -49,14 +49,14 @@ header {
 }
 
 header h1 {
-    font-family: 'Nunito Sans', sans-serif; /* Ensure header uses Nunito Sans */
+    font-family: 'Roboto', sans-serif; /* Ensure header uses Roboto */
     color: #ffffff; /* White color for text */
     margin: 0;
     font-size: 24px;
 }
 
 header h2 {
-    font-family: 'Nunito Sans', sans-serif; /* Ensure header uses Nunito Sans */
+    font-family: 'Roboto', sans-serif; /* Ensure header uses Roboto */
     color: #ffffff; /* White color for text */
     margin: 0;
     font-size: 20px;

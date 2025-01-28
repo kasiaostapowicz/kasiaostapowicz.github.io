@@ -34,11 +34,18 @@
         							default:
             								abstract = "<p>No abstract available.</p>";
     								}
-     								const newWindow = window.open("about:blank", "_blank", "width=600,height=400");
+     								const mainWindowWidth = window.innerWidth;
+    								const mainWindowHeight = window.innerHeight;
+    								const newWindowWidth = mainWindowWidth * 0.5;
+    								const newWindowHeight = mainWindowHeight * 0.5;
+    								const newWindowLeft = (mainWindowWidth - newWindowWidth) / 2;
+    								const newWindowTop = (mainWindowHeight - newWindowHeight) / 2;
+
+    								const newWindow = window.open("", "_blank", `width=${newWindowWidth},height=${newWindowHeight},left=${newWindowLeft},top=${newWindowTop}`);
     								newWindow.document.write(`
-        								<html>
+        							<html>
         								<head>
-										<title>Abstract</title>
+            									<title>Abstract</title>
             									<link rel="stylesheet" href="../assest/style.css">
         								</head>
         								<body>
@@ -46,8 +53,8 @@
                 									${abstract}
             									</div>
         								</body>
-        								</html>`);
-								newWindow.document.close();
+        							</html>`);
+    								newWindow.document.close();
 						}
 	</script>
 </head>

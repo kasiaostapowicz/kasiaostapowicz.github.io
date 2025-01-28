@@ -34,7 +34,7 @@
         							default:
             								abstract = "<p>No abstract available.</p>";
     								}
-     								const newWindow = window.open("", "_blank", "width=600,height=400");
+     								const newWindow = window.open("about:blank", "_blank", "width=600,height=400");
     								newWindow.document.write(`
         								<html>
         								<head>
@@ -47,6 +47,7 @@
             									</div>
         								</body>
         								</html>`);
+								newWindow.document.close();
 						}
 	</script>
 </head>

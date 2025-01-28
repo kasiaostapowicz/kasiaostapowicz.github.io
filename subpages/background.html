@@ -9,29 +9,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<script>
         	function openAbstract(thesis) {
-            		let abstract;
-            		switch(thesis) {
-                	case 'PhD_Geography': 
-				abstract = `
-				<h2>Spatiotemporal simulation of land cover change dynamics, 2007, PhD Thesis, Jagiellonian University (Poland)</h2>           						         <p><strong>Abstract:</strong></p>
-                        	<p>Land cover change, a major driver of global environmental change, arises from the interaction of biophysical processes and socio-economic factors across varying spatial and temporal scales.</p>
-                        	<p>The research area in the Polish Carpathians is a heterogeneous mountainous region historically dominated by forests yet substantially altered by land use changes. These changes reflect socio-economic transformations, policy shifts, and environmental factors influencing land management.</p>
-                        	<p>The methodology integrates nonlinear regression models to investigate historical land cover transitions and cellular automata simulations to project future forest cover dynamics. The analysis reveals complex spatiotemporal patterns and interactions.</p>
-                        	<p>Results indicate that forest growth during the study period occurred largely on lands of low agricultural productivity. Projections further indicate stabilization of forest boundaries, improving biodiversity conservation prospects.</p>
-                        	<p>By combining empirical data, statistical modeling, and spatial simulations, this research advances our understanding of forest cover dynamics and provides valuable insights for biodiversity conservation and sustainable land management.</p>`;
-                    break;
-               		case 'MSc_Geography':
-                    		abstract = "Abstract: This thesis explores the spatial distribution of forests in the Western Beskidy Mountains using Geographic Information Systems (GIS).";
-                    	break;
-                	case 'MSc_Physics':
-                    		abstract = "Abstract: This thesis investigates the cross-sections of nucleus-proton fragmentation reactions.";
-                    	break;
-                	default:
-                    	abstract = "No abstract available.";
-            		}
-            	const newWindow = window.open("", "Abstract", "width=600,height=400");
-            	newWindow.document.write(`<p>${abstract}</p>`);
-        }
+    let abstract;
+    switch(thesis) {
+        case 'PhD_Geography':
+            abstract = `
+                <h2>PhD in Earth Science within Geography</h2>
+                <h3>Spatiotemporal simulation of land cover change dynamics, Jagiellonian University (Poland), 2007</h3>
+                <p><strong>Abstract:</strong></p>
+                <p>Land cover change, a major driver of global environmental change, arises from the interaction of biophysical processes and socio-economic factors across varying spatial and temporal scales.</p>
+                <p>The research area in the Polish Carpathians is a heterogeneous mountainous region historically dominated by forests yet substantially altered by land use changes. These changes reflect socio-economic transformations, policy shifts, and environmental factors influencing land management.</p>
+                <p>The methodology integrates nonlinear regression models to investigate historical land cover transitions and cellular automata simulations to project future forest cover dynamics. The analysis reveals complex spatiotemporal patterns and interactions.</p>
+                <p>Results indicate that forest growth during the study period occurred largely on lands of low agricultural productivity. Projections further indicate stabilization of forest boundaries, improving biodiversity conservation prospects.</p>
+                <p>By combining empirical data, statistical modeling, and spatial simulations, this research advances our understanding of forest cover dynamics and provides valuable insights for biodiversity conservation and sustainable land management.</p>`;
+            break;
+        case 'MSc_Geography':
+            abstract = `
+                <h2>MSc in Physical Geography within Environmental and Mathematical Studies</h2>
+                <h3>Spatial distribution of forests in the Western Beskidy Mountains, Jagiellonian University (Poland), 2002</h3>
+                <p><strong>Abstract:</strong></p>
+                <p>This thesis explores the spatial distribution of forests in the Western Beskidy Mountains using Geographic Information Systems (GIS).</p>`;
+            break;
+        case 'MSc_Physics':
+            abstract = `
+                <h2>MSc in Physics</h2>
+                <h3>Cross-sections of nucleus-proton fragmentation reactions, Jagiellonian University (Poland), 2004</h3>
+                <p><strong>Abstract:</strong></p>
+                <p>This thesis investigates the cross-sections of nucleus-proton fragmentation reactions.</p>`;
+            break;
+        default:
+            abstract = "<p>No abstract available.</p>";
+    }
+    const newWindow = window.open("", "Abstract", "width=600,height=400");
+    newWindow.document.write(`
+        <html>
+        <head>
+            <link rel="stylesheet" href="../assest/style.css">
+        </head>
+        <body>
+            <div class="text-box">
+                ${abstract}
+            </div>
+        </body>
+        </html>`);
+}
 	</script>
 </head>
 <body>

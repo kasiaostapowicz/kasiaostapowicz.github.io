@@ -7,6 +7,30 @@
     <title>Katarzyna Ostapowicz</title>
     <link rel="stylesheet" href="../assest/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<script>
+        	function openAbstract(thesis) {
+            		let abstract;
+            		switch(thesis) {
+                	case 'PhD_Geography': abstract = "Abstract </br>
+					<p>Land cover change, a major driver of global environmental change, arises from the interaction of biophysical processes and socio-economic factors across varying spatial and temporal scales. This study develops a spatiotemporal framework for modelling forest cover dynamics in the Polish Carpathians, focusing on changes between 1987 and 2000 and on potential future trajectories. The main objectives are to identify and analyse the drivers of deforestation, afforestation, and fragmentation, and to evaluate their implications for biodiversity, ecosystem services, and sustainable landscape management.</br>
+					The research area in the Polish Carpathians is a heterogeneous mountainous region historically dominated by forests yet substantially altered by land use changes. These changes reflect socio-economic drivers, such as agricultural abandonment and state-led afforestation programmes. Data sources include Landsat TM and ETM+ imagery, CORINE Land Cover datasets, and additional biophysical (e.g. elevation, slope) and socio-economic datasets (e.g. rural depopulation trends, afforestation policies).</br>
+					The methodology integrates nonlinear regression models to investigate historical land cover transitions and cellular automata simulations to project future forest cover dynamics. The analysis reveals that agricultural abandonment and socio-economic transformations following 1989—stemming from broader political and economic shifts in Central Europe—were key drivers of forest expansion and fragmentation. Future projections suggest ongoing forest expansion, particularly on former agricultural lands, accompanied by reduced fragmentation and enhanced forest connectivity.</br>
+					Results indicate that forest growth during the study period occurred largely on lands of low agricultural productivity. Projections further indicate stabilisation of forest boundaries, improved connectivity, and greater ecological resilience. These findings underscore the importance of integrated land use policies to manage land cover change effectively in mountainous regions.</br>
+						By combining empirical data, statistical modelling, and spatial simulations, this research advances our understanding of forest cover dynamics and provides valuable insights for biodiversity conservation, sustainable forest management, and climate change mitigation. It highlights the critical role of interdisciplinary approaches in addressing complex land system challenges."</p>;
+	              	break;
+               		case 'MSc_Geography':
+                    		abstract = "Abstract: This thesis explores the spatial distribution of forests in the Western Beskidy Mountains using Geographic Information Systems (GIS).";
+                    	break;
+                	case 'MSc_Physics':
+                    		abstract = "Abstract: This thesis investigates the cross-sections of nucleus-proton fragmentation reactions.";
+                    	break;
+                	default:
+                    	abstract = "No abstract available.";
+            		}
+            	const newWindow = window.open("", "Abstract", "width=600,height=400");
+            	newWindow.document.write(`<p>${abstract}</p>`);
+        }
+	</script>
 </head>
 <body>
 	<header>
@@ -37,25 +61,25 @@
 						<h3>Academic Degrees</h3>
     							<ul>
 								<li>
-									<b>2007: PhD in the Earth Science within Geography</b></br>
-									Faculty of Biology and Earth Science, Jagiellonian University (Poland)</br>
-									<b>Thesis:</b> Spatiotemporal simulation of land cover change dynamics</br>
-									<em>Institute of Geography and Spatial Management at the Jagiellonian University Award for outstanding PhD thesis within Geography defended between 2005 and 2007</em>
-								</li>
-								<p></p>
-    								<li>
-									<b>2004: MSc in Physics (specialization: Nuclear Physics)</b></br>
-									Institute of Physics, Faculty of Physics, Astronomy and Applied Computer Science, Jagiellonian University (Poland)</br>
-									<b>Thesis:</b> Cross-sections of nucleus-proton fragmentation reactions
-								</li>
-								<p></p>
-								<li>
-									<b>2002: MSc in Physical Geography within Environmental and Mathematical Studies (specialization: Geographic Information Systems)</b></br>
-									Institute of Geography and Spatial Management, Faculty of Biology and Earth Science, Jagiellonian University (Poland)<br/>
-    									<b>Thesis:</b> Spatial distribution of forests in the Western Beskidy Mountains</br>
-									<em>Polish Geographical Society Award for outstanding MSc thesis</em>
-									<p></p>	
-								</li>
+                        						<b>2007: PhD in the Earth Science within Geography</b></br>
+                        						Faculty of Biology and Earth Science, Jagiellonian University (Poland)</br>
+                        						<b>Thesis:</b> <a href="javascript:void(0);" onclick="openAbstract('PhD_Geography')">Spatiotemporal simulation of land cover change dynamics</a></br>
+                        						<em>Institute of Geography and Spatial Management at the Jagiellonian University Award for outstanding PhD thesis within Geography defended between 2005 and 2007</em>
+                    						</li>
+                    						<p></p>
+                    						<li>
+                        						<b>2004: MSc in Physics (specialization: Nuclear Physics)</b></br>
+                        						Institute of Physics, Faculty of Physics, Astronomy and Applied Computer Science, Jagiellonian University (Poland)</br>
+                        						<b>Thesis:</b> <a href="javascript:void(0);" onclick="openAbstract('MSc_Physics')">Cross-sections of nucleus-proton fragmentation reactions</a>
+                    						</li>
+                    						<p></p>
+                    						<li>
+                        						<b>2002: MSc in Physical Geography within Environmental and Mathematical Studies (specialization: Geographic Information Systems)</b></br>
+                        						Institute of Geography and Spatial Management, Faculty of Biology and Earth Science, Jagiellonian University (Poland)</br>
+                        						<b>Thesis:</b> <a href="javascript:void(0);" onclick="openAbstract('MSc_Geography')">Spatial distribution of forests in the Western Beskidy Mountains</a></br>
+                        						<em>Polish Geographical Society Award for outstanding MSc thesis</em>
+                        					</li>
+								<p></p> 
 							</ul>
 					</div>
 					<div class="image-text-box">	

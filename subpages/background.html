@@ -26,26 +26,27 @@
                 							<p>This thesis explores the spatial distribution of forests in the Western Beskidy Mountains using Geographic Information Systems (GIS).</p>`;
             							break;
         							case 'MSc_Physics':
-            								abstract = `
-                								<h2>Ostapowicz K., 2004, Cross-sections of nucleus-proton fragmentation reactions, MSc Thesis, Jagiellonian University (Poland)</h2>
-               									<p><strong>Abstract:</strong></p>
-                								<p>This thesis investigates the cross-sections of nucleus-proton fragmentation reactions.</p>`;
+            							abstract = `
+                							<h2>Ostapowicz K., 2004, Cross-sections of nucleus-proton fragmentation reactions, MSc Thesis, Jagiellonian University (Poland)</h2>
+               								<p><strong>Abstract:</strong></p>
+                							<p>This thesis investigates the cross-sections of nucleus-proton fragmentation reactions.</p>`;
             							break;
         							default:
             								abstract = "<p>No abstract available.</p>";
     								}
      								const newWindow = window.open("", "_blank", "width=600,height=400");
-    						newWindow.document.write(`
-        						<html>
-        							<head>
-            								<link rel="stylesheet" href="../assest/style.css">
-        							</head>
-        							<body>
-            								<div class="text-box">
-                								${abstract}
-            								</div>
-        							</body>
-        						</html>`);
+    								newWindow.document.write(`
+        								<html>
+        								<head>
+										<title>Abstract</title>
+            									<link rel="stylesheet" href="../assest/style.css">
+        								</head>
+        								<body>
+            									<div class="text-box">
+                									${abstract}
+            									</div>
+        								</body>
+        								</html>`);
 						}
 	</script>
 </head>

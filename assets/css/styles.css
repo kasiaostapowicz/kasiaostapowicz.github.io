@@ -248,12 +248,14 @@ h2 {
         margin-right: 0; /* Remove right margin */
         margin-bottom: 20px; /* Add bottom margin */
         width: 100%; /* Set width to 100% */
+        display: flex;
+        justify-content: center; /* Center-align the image horizontally */
     }
 
     .image-text-box .profile-image img {
-        width: 100%; /* Set image width to 100% */
-        height: auto; /* Set height to auto */
-        border-radius: 50%; /* Remove border radius */
+        width: 150px; /* Set a fixed width for the image */
+        height: 150px; /* Set a fixed height for the image */
+        border-radius: 50%; /* Keep the image circular */
     }
 
     .image-text-box .profile-text {

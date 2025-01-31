@@ -42,6 +42,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1000; /* Ensure the header is always on top */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 .header-content {
@@ -252,16 +253,22 @@ h2 {
     .image-text-box .profile-image img {
         width: 100%; /* Set image width to 100% */
         height: auto; /* Set height to auto */
-        border-radius: 0; /* Remove border radius */
+        border-radius: 50%; /* Remove border radius */
     }
 
     .image-text-box .profile-text {
         width: 100%; /* Set width to 100% */
+        text-align: justify; /* Ensure text is justified */
     }
 
     /* Add padding for main content to avoid header overlap */
     main {
         padding-top: 140px; /* Increase padding to fit header */
+    }
+
+      /* Add right margin to header */
+    header {
+        padding-right: 1rem; /* Add right padding */
     }
 }
 

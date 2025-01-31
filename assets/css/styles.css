@@ -237,6 +237,36 @@ h2 {
     width: auto;
 }
 
+/* Add media queries for smartphone layouts */
+@media (max-width: 768px) {
+    .image-text-box {
+        flex-direction: column; /* Set direction to column */
+    }
+
+    .image-text-box .profile-image {
+        margin-right: 0; /* Remove right margin */
+        margin-bottom: 20px; /* Add bottom margin */
+        width: 100%; /* Set width to 100% */
+    }
+
+    .image-text-box .profile-image img {
+        width: 100%; /* Set image width to 100% */
+        height: auto; /* Set height to auto */
+        border-radius: 0; /* Remove border radius */
+    }
+
+    .image-text-box .profile-text {
+        width: 100%; /* Set width to 100% */
+    }
+
+    /* Add padding for main content to avoid header overlap */
+    main {
+        padding-top: 140px; /* Increase padding to fit header */
+    }
+}
+
+
+
 /* Footer styles */
 footer {
     background-color: #001f3f; /* Dark navy blue background */

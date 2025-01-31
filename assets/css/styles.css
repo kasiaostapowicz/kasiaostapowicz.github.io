@@ -247,7 +247,6 @@ h2 {
     .image-text-box .profile-image {
         margin-right: 0; /* Remove right margin */
         margin-bottom: 20px; /* Add bottom margin */
-        width: 100%; /* Set width to 100% */
         display: flex;
         justify-content: center; /* Center-align the image horizontally */
     }
@@ -259,7 +258,6 @@ h2 {
     }
      
     .image-text-box .profile-text {
-        flex: 1; /* Allow the text to take up the remaining space */
         width: 100%; /* Set width to 100% */
         text-align: justify; /* Ensure text is justified */
     }

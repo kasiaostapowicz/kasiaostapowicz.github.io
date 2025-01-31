@@ -1,1 +1,257 @@
+/* Global styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .badges-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .badges {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .badges img {
+        height: 30px; /* Slightly increase size for better visibility */
+        margin: 5px;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif; /* Use Roboto for all text */
+    background-color: #f2f2f2; /* Light gray background for the page */
+    color: #333333; /* Dark gray color for text */
+    line-height: 1.6;
+    font-size: 14px; /* Default font size for the entire text */
+    min-height: 100vh; /* Ensures the body takes full height */
+}
+
+/* Header styles */
+header {
+    background-color: #001f3f; /* Dark navy blue background */
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensure the header is always on top */
+}
+
+.header-content {
+    text-align: center; /* Center-align the header content */
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif; /* Ensure header uses Roboto */
+    color: #ffffff; /* White color for text */
+    margin: 0;
+    font-size: 24px;
+}
+
+header h2 {
+    font-family: 'Roboto', sans-serif; /* Ensure header uses Roboto */
+    color: #ffffff; /* White color for text */
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center-align the text */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px; /* Reduce font size in navigation */
+}
+
+/* Main content styles */
+
+main {
+    flex: 1;
+    padding-top: 120px; /* Ensure enough space for the fixed header */
+    padding-bottom: 100px; /* Additional space for footer */
+    margin-top: 0; /* Remove margin-top to avoid additional spacing issues */
+}
+
+/* Sections content styles */
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #e6e6e6;
+    margin-top: 1rem; /* Add top margin to each section */
+}
+
+section:first-of-type {
+    margin-top: 1.5rem; /* Ensure the first section has enough space from the header */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif; /* Use Nunito Sans for headings */
+    color: #333333; /* Dark gray color for headings */
+}
+
+h1 {
+    margin-top: 1rem; /* Ensure there is space between the header and the first heading */
+    font-size: 24px; /* Reduce font size for h1 header */
+}
+
+h2 {
+    margin-top: 1rem; /* Add top margin to h2 headers */
+    font-size: 20px; /* Reduce font size for h2 header */
+}
+
+/* Image-Text-box style*/
+.image-text-box {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image-text-box .profile-image {
+    flex-shrink: 0;
+    margin-right: 20px; /* margine between image and text */
+}
+
+.image-text-box .profile-text {
+    text-align: justify;
+    flex: 1;
+}
+
+/* profile text and image styles */
+.profile-image {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.profile-image img {
+    width: 150px; /* Size of the profile image */
+    height: 150px; /* Ensure it is square */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.profile-text {
+    flex: 1; /* Allow the text to take up the remaining space */
+    max-width: calc(100% - 170px); /* Ensure text doesn't overflow */
+}
+
+
+/* Text-box style*/
+.text-box {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: justify;
+}
+
+/* Contact-box style*/
+.contact-box {
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure full width for the contact-box */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.contact-box .contact-text {
+    margin-bottom: 15px; /* Margin between text and map */
+    text-align: justify;
+    width: 100%; /* Ensure full width for text */
+}
+
+.contact-box .contact-map {
+    flex-grow: 1; /* Allow the map to take up available space */
+    width: 100%; /* Ensure full width for map */
+    height: 400px; /* Set a fixed height for the map */
+    border: 0; /* Remove any default border from the iframe */
+    overflow: hidden; /* Prevent map content from being cut off */
+}
+
+.contact-box .contact-map iframe {
+    width: 100%; /* Ensure iframe takes full width */
+    height: 100%; /* Ensure iframe takes full height */
+    border: 0; /* Remove any default border from the iframe */
+}
+
+
+/* sgd icons styles */
+.sdg-icons {
+    flex: 0 0 25%; /* 25% width for the icons */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align icons in the column */
+    gap: 10px; /* Space between the icons */
+}
+
+.sdg-icons img {
+    width: 100%; /* Adjust icons to fit the column width */
+    height: auto;
+}
+
+/* Badge section styles */
+.badges-section {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem; /* Adjust margin as needed */
+}
+
+.badges-section p {
+    margin: 0;
+    font-weight: bold;
+    margin-right: 10px; /* Space between text and badges */
+}
+
+.badges {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the badges */
+}
+
+.badges img {
+    height: 20px; /* Adjust the size of the badges to be the same */
+    width: auto;
+}
+
+/* Footer styles */
+footer {
+    background-color: #001f3f; /* Dark navy blue background */
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    margin-top: auto; /* Pushes footer to the bottom if the content is short */
+}
+
+a {
+    color: #333333; /* Dark gray color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

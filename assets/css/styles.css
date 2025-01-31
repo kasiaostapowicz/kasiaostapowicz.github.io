@@ -265,7 +265,7 @@ h2 {
     
     /* Add padding for main content to avoid header overlap */
     main {
-        padding-top: 140px; /* Increase padding to fit header */
+        padding-top: 160px; /* Increase padding to fit header */
     }
 
       /* Add right margin to header */

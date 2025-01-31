@@ -260,6 +260,7 @@ h2 {
     .image-text-box .profile-text {
         width: 100%; /* Set width to 100% */
         text-align: justify; /* Ensure text is justified */
+        max-width: none; /* Ensure the text takes the full width */
     }
     
     /* Add padding for main content to avoid header overlap */

@@ -204,6 +204,32 @@ h2 {
 }
 
 /* ===============================
+   Contact Box Styles
+   =============================== */
+#images-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.images-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    margin: 10px;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* ===============================
    SDG Icons Styles
    =============================== */
 .sdg-icons {
@@ -249,6 +275,16 @@ h2 {
    Responsive Design
    =============================== */
 @media (max-width: 768px) {
+     /* Add padding for main content to avoid header overlap */
+    main {
+        padding-top: 160px; /* Increase padding to fit header */
+    }
+
+      /* Add right margin to header */
+    header {
+        padding-right: 1rem; /* Add right padding */
+    }
+   
     .badges-section {
         flex-direction: column;
         align-items: flex-start;
@@ -286,16 +322,16 @@ h2 {
         text-align: justify; /* Ensure text is justified */
         max-width: none; /* Ensure the text takes the full width */
     }
-    
-    /* Add padding for main content to avoid header overlap */
-    main {
-        padding-top: 160px; /* Increase padding to fit header */
+
+   .images-row {
+        flex-direction: column;
+        align-items: center;
     }
 
-      /* Add right margin to header */
-    header {
-        padding-right: 1rem; /* Add right padding */
+    .image-container {
+        width: 80%;
     }
+       
 }
 
 /* ===============================

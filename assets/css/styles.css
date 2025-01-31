@@ -257,12 +257,13 @@ h2 {
         height: 150px; /* Set a fixed height for the image */
         border-radius: 50%; /* Keep the image circular */
     }
-
+     
     .image-text-box .profile-text {
+        flex: 1; /* Allow the text to take up the remaining space */
         width: 100%; /* Set width to 100% */
         text-align: justify; /* Ensure text is justified */
     }
-
+    
     /* Add padding for main content to avoid header overlap */
     main {
         padding-top: 140px; /* Increase padding to fit header */

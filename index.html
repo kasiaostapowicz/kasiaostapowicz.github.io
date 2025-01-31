@@ -8,29 +8,12 @@
     <link rel="stylesheet" href="../assest/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-	<div class="header-content">
-		<a href="#home"><h1>Katarzyna Ostapowicz</h1></a>
-		<a href="#home"><h2>Research Scientist</h2></a>
-		<a href="#home"><h2>Norwegian Institute for Nature Research (NINA)</h2></a>
-		<p></p>
-        	<nav>
-            		<ul>
-                		<li><a href="/index.html">About me</a></li>
-                		<li><a href="../subpages/background.html">Background</a></li>
-                		<li><a href="../subpages/projects.html">Projects</a></li>
-                		<li><a href="../subpages/publications.html">Publications</a></li>
-                		<!-- <li><a href="#data-tools">Data & Tools</a></li> -->
-                		<!-- <li><a href="#teaching">Teaching</a></li> -->
-                		<li><a href="../subpages/contact.html">Contact</a></li>
-            		</ul>
-        	</nav>
-	</div>
-    </header>
+<body>	
+
+	<div data-include="../components/header.html"></div>
 	
-<main>
-    <section id="home">
+	<main>
+    	<section id="home">
 	<h1>About me</h1>
 		<h2><strong>Advancing Remote Sensing, AI, and Land System Science</strong></h2> 
 		<p></p> 
@@ -118,11 +101,10 @@
             	</div>
             </div>  
     	<p></p>
-</section>
-</main>
+	</section>
+	</main>
 
-    <footer>
-        <p>&copy; 2025 Katarzyna Ostapowicz. All rights reserved.</p>
-    </footer>
+	<div data-include="../components/footer.html"></div>
+	
 </body>
 </html>

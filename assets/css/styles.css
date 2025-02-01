@@ -228,27 +228,6 @@ h2 {
     object-fit: cover;
 }
 
-
-/* ===============================
-   SDG Icons Styles
-   =============================== */
-.sdg-icons {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px 0;
-}
-
-.sdg-icons .image-container {
-    flex: 1 1 calc(25% - 10px); /* Adjust the width of each image container */
-    margin: 5px;
-}
-
-.sdg-icons .image-container img {
-    width: 100%;
-    height: auto;
-}
-
 /* ===============================
    Badge Section Styles
    =============================== */

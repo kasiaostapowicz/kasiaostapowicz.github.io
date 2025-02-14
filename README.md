@@ -9,7 +9,7 @@
 [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=7dxBUIcAAAAJ&hl=en&oi=ao)
 
 <p>
-	As a researcher, with PhD in Earth Sciences, specialising in remote sensing, geoinformatics, data science, and artificial intelligence, I integrate advanced methodologies to address complex challenges within land system science and sustainability science. With an academic foundation in geography and physics, my interdisciplinary expertise enables the exploration of land cover and land use change, biodiversity transformations, climate change impacts, human-environment interactions, and carbon cycling in both blue and green ecosystems. My research particularly focuses on the sensitive ecosystems of mountainous and polar regions.</br>
+	As a researcher with PhD in Earth Sciences, specialising in remote sensing, geoinformatics, data science, and artificial intelligence, I integrate advanced methodologies to address complex challenges within land system science and sustainability science. With an academic foundation in geography and physics, my interdisciplinary expertise enables the exploration of land cover and land use change, biodiversity transformations, climate change impacts, human-environment interactions, and carbon cycling in both blue and green ecosystems. My research particularly focuses on the sensitive ecosystems of mountainous and polar regions.</br>
 <p></p>
 In addition to my research endeavors, I lead and manage both research lab. and international projects, fostering interdisciplinary collaboration and knowledge exchange. I am dedicated to teaching and mentoring students at various academic levels.</br>
  	<h2>Key Expertise</h2>

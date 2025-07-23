@@ -36,6 +36,6 @@
 			She has contributed to projects that bridge academic research with practical applications, driving innovation and sustainable practices across various industries. Engagement with public and private sector organizations has enabled the translation of scientific insights into actionable solutions, benefiting both the scientific community and industry stakeholders.</br>
 			<p></p>
 	    	<h3>Commitment to Education and Mentorship</h3>
-			Committed to the education and advancement of future scientists, dr. Ostapowicz has a strong background in teaching and mentoring students at undergraduate, master’s, doctoral, and postdoctoral levels.</br>
+			Committed to the education and advancement of future scientists, She has a strong background in teaching and mentoring students at undergraduate, master’s, doctoral, and postdoctoral levels.</br>
 			<p></p>
 </p>

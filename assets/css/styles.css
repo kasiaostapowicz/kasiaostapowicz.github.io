@@ -79,7 +79,7 @@ nav ul li a {
 main {
     flex: 1;
     padding-top: 160px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 section {
@@ -141,8 +141,8 @@ h2 {
 }
 
 .profile-image img {
-    width: 240px; /* Size of the profile image */
-    height: 240px; /* Ensure it is square */
+    width: 180px; /* Size of the profile image */
+    height: 180px; /* Ensure it is square */
     border-radius: 50%; /* Make the image circular */
     object-fit: cover; /* Ensure the image covers the entire area */
 }

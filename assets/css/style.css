@@ -118,6 +118,7 @@ body { font-family: var(--sans); background: var(--paper); color: var(--navy); l
 .pub-t { font-weight: 600; font-size: .9rem; color: rgba(255,255,255,.88); line-height: 1.5; margin-bottom: .33rem; transition: color .2s; }
 .pub:hover .pub-t { color: var(--blue-l); }
 .pub-m { font-size: .77rem; color: rgba(255,255,255,.35); font-style: normal; line-height: 1.65; }
+.pub-m br + * { font-style: normal; }
 .pub-y { display: inline-block; font-style: normal; font-family: var(--mono); font-size: .61rem; letter-spacing: .08em; background: rgba(42,100,150,.4); color: var(--blue-l); border: 1px solid rgba(74,139,181,.25); padding: .09rem .42rem; border-radius: 2px; margin-left: .35rem; vertical-align: middle; }
 
 /* ── CONTACT ── */

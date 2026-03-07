@@ -41,7 +41,7 @@ body { font-family: var(--sans); background: var(--paper); color: var(--navy); l
 .h-name { font-family: var(--serif); font-weight: normal; font-size: clamp(2.8rem, 7vw, 5.8rem); line-height: 1.02; color: #fff; letter-spacing: -.01em; opacity: 0; animation: fu .8s .25s forwards; }
 .h-name em { font-style: italic; color: rgba(255,255,255,.38); }
 .h-rule { width: 44px; height: 1px; background: var(--blue-l); margin: 2.2rem 0; opacity: 0; animation: fu .7s .4s forwards; }
-.h-role-main { font-size: 1.9rem; }
+.h-role-main { font-size: 1.7rem; }
 .h-role { font-size: 1.1rem; color: rgba(255,255,255,.57); line-height: 1.95; opacity: 0; animation: fu .7s .5s forwards; }
 .h-role strong { color: rgba(255,255,255,.92); font-weight: 600; }
 

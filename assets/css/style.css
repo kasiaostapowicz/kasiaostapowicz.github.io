@@ -94,6 +94,7 @@ body { font-family: var(--sans); background: var(--paper); color: var(--navy); l
 .career-period { font-family: var(--mono); font-size: .68rem; color: var(--gm); letter-spacing: .05em; line-height: 1.5; }
 .career-role { font-weight: 600; font-size: .9rem; color: var(--navy); line-height: 1.4; margin-bottom: .2rem; }
 .career-inst { font-size: .8rem; color: var(--gm); font-style: italic; }
+.career-badge { display: inline-block; margin-top: .35rem; font-family: var(--mono); font-size: .59rem; text-transform: uppercase; letter-spacing: .1em; background: var(--blue-pale); color: var(--blue); padding: .15rem .44rem; border-radius: 2px; }
 
 /* ── PROJECTS ── */
 .sec-wh { background: #fff; }

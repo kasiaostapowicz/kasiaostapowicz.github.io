@@ -1,6 +1,6 @@
 # kasiaostapowicz.github.io
 
-Personal academic website of **Katarzyna Ostapowicz**, Research Scientist at the Norwegian Institute for Nature Research (NINA), Tromsø, Norway.
+Personal website of **Katarzyna Ostapowicz**, Research Scientist at the Norwegian Institute for Nature Research (NINA), Tromsø, Norway.
 
 ---
 

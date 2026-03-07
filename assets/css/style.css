@@ -86,6 +86,19 @@ body { font-family: var(--sans); background: var(--paper); color: var(--navy); l
 .deg-ttl { font-size: .87rem; font-weight: 600; color: rgba(255,255,255,.88); margin-bottom: .4rem; line-height: 1.45; }
 .deg-sub { font-family: var(--mono); font-size: .7rem; color: rgba(255,255,255,.32); letter-spacing: .03em; line-height: 1.6; }
 
+/* ── CAREER ── */
+.career-list { border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+.career-row { display: grid; grid-template-columns: 130px 1fr; gap: 1.8rem; align-items: center; padding: 1.4rem 1.8rem; background: #fff; border-bottom: 1px solid var(--line); transition: background .18s; }
+.career-row:last-child { border-bottom: none; }
+.career-row:hover { background: var(--blue-ghost); }
+.career-period { font-family: var(--mono); font-size: .68rem; color: var(--gm); letter-spacing: .05em; line-height: 1.5; }
+.career-role { font-weight: 600; font-size: .9rem; color: var(--navy); line-height: 1.4; margin-bottom: .2rem; }
+.career-inst { font-size: .8rem; color: var(--gm); font-style: italic; }
+
+@media (max-width: 820px) {
+  .career-row { grid-template-columns: 1fr; gap: .3rem; }
+}
+
 /* ── PROJECTS ── */
 .sec-wh { background: #fff; }
 .proj-list { border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }

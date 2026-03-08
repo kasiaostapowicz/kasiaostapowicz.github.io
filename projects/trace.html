@@ -22,14 +22,14 @@
   </ul>
 </nav>
 
-<!-- HERO with NDVI animation -->
+<!-- HERO — NDVI animation as background -->
 <section class="proj-hero">
-  <div style="position:absolute;inset:0;background-image:url('../assets/images/animation_trace.gif');background-size:cover;background-position:center;"></div>
-  <div style="position:absolute;inset:0;background:rgba(11,29,53,.78);"></div>
+  <div class="proj-hero-anim" style="position:absolute;inset:0;background-image:url('../assets/images/animation_trace.gif');background-size:cover;background-position:center;"></div>
+  <div class="hero-slide-overlay" style="position:absolute;inset:0;background:rgba(11,29,53,.68);"></div>
   <div class="proj-hero-grid"></div>
   <div class="proj-hero-in">
-    <p class="h-label">&#8592; <a href="../index.html#projects" style="color:inherit;text-decoration:none;">All Projects</a> &nbsp;&middot;&nbsp; Land System Science &nbsp;&middot;&nbsp; Central Europe</p>
-    <h1 class="h-name-proj">Trajectories, Causes and Consequences<br>of Land Cover and Land Use Changes in Central Europe</h1>
+    <p class="h-label">&#8592; <a href="../index.html#projects" style="color:inherit;text-decoration:none;">All Projects</a> &nbsp;&middot;&nbsp; Land System Science &nbsp;&middot;&nbsp; Remote Sensing</p>
+    <h1 class="h-name-proj">Trajectories, Causes and Consequences of<br>Land Cover and Land Use Changes in Central Europe</h1>
     <div class="h-rule"></div>
     <p class="h-role" style="font-size:1rem;">
       <strong>TRACE Project &nbsp;&middot;&nbsp; 2019–2023</strong><br>
@@ -37,9 +37,9 @@
     </p>
     <div class="h-tags">
       <span class="h-tag">Land Cover Change</span>
-      <span class="h-tag">Remote Sensing Time Series</span>
+      <span class="h-tag">Satellite Time Series</span>
       <span class="h-tag">Biodiversity</span>
-      <span class="h-tag">Carbon Dynamics</span>
+      <span class="h-tag">Carbon Cycles</span>
       <span class="h-tag">Central Europe</span>
     </div>
   </div>
@@ -53,8 +53,8 @@
 
       <div class="proj-section rv">
         <p class="sec-lbl">Background</p>
-        <h2 class="sec-ttl">Land system change in post-socialist Europe</h2>
-        <p>The TRACE project investigated land cover and land use change trajectories across Central Europe (Czechia, Hungary, Poland, Slovakia) over five decades, focusing on the profound restructuring of land systems following the 1990 political transition from centralised to market economies and the 2004 EU accession. By combining optical and radar satellite time series with socio-economic datasets, the project sought to disentangle the biophysical signals of agricultural abandonment, urban expansion, and wildland-urban interface dynamics from the institutional and economic drivers that produced them, and to quantify downstream consequences for biodiversity and carbon pools.</p>
+        <h2 class="sec-ttl">Land system change in Central Europe</h2>
+        <p>The TRACE project examined land cover and land use change trajectories across Central Europe (Czechia, Hungary, Poland, Slovakia) over the past fifty years. The region underwent profound political and economic transformations following the 1990 transition from centralised command economies to market-oriented systems, and again with EU accession in 2004 — shifts that substantially restructured land management, agricultural practices, and urban expansion patterns. By integrating dense optical and radar satellite time series with socio-economic datasets, TRACE aimed to disentangle the drivers of land change from its environmental consequences, with particular attention to biodiversity responses and carbon pool dynamics.</p>
       </div>
 
       <div class="proj-section rv">
@@ -63,19 +63,19 @@
         <ul class="obj-list">
           <li class="obj-item">
             <span class="obj-n">01</span>
-            <span class="obj-txt"><strong>Land cover change mapping</strong> — multi-decadal remote sensing analysis of agricultural abandonment and urban expansion across Central Europe</span>
+            <span class="obj-txt"><strong>Land cover change mapping</strong> — detection and spatial characterisation of agricultural abandonment, afforestation, and wildland–urban interface dynamics across a 50-year satellite archive</span>
           </li>
           <li class="obj-item">
             <span class="obj-n">02</span>
-            <span class="obj-txt"><strong>Driver analysis</strong> — ensemble modelling and telecoupling framework to identify socio-economic, political, and institutional causes of land change</span>
+            <span class="obj-txt"><strong>Driver analysis</strong> — ensemble modelling of socio-economic, political, and institutional drivers of land change using the telecoupling framework at regional scale</span>
           </li>
           <li class="obj-item">
             <span class="obj-n">03</span>
-            <span class="obj-txt"><strong>Biodiversity assessment</strong> — remote sensing-based indicators of biodiversity change including roadless area mapping at regional scale</span>
+            <span class="obj-txt"><strong>Biodiversity assessment</strong> — quantification of land change impacts on biodiversity using remote sensing-derived indicators, including roadless area mapping at continental scale</span>
           </li>
           <li class="obj-item">
             <span class="obj-n">04</span>
-            <span class="obj-txt"><strong>Carbon dynamics</strong> — quantification of land change impacts on carbon pools and fluxes across the study region</span>
+            <span class="obj-txt"><strong>Carbon dynamics</strong> — assessment of carbon pool and flux responses to land cover change trajectories across Central Europe</span>
           </li>
         </ul>
       </div>
@@ -83,4 +83,125 @@
       <!-- DATA — dark background -->
       <div class="proj-section bg-dark rv">
         <p class="sec-lbl">Data</p>
-        <h2 class="sec-ttl">Earth Observation &amp
+        <h2 class="sec-ttl">Earth Observation &amp; ancillary datasets</h2>
+        <div class="data-grid">
+          <div class="data-card">
+            <div class="data-icon">Optical</div>
+            <div class="data-name">Landsat TM / ETM+ / OLI</div>
+            <div class="data-detail">1984 &ndash; 2023</div>
+          </div>
+          <div class="data-card">
+            <div class="data-icon">Optical</div>
+            <div class="data-name">MODIS NDVI time series</div>
+            <div class="data-detail">2000 &ndash; 2023</div>
+          </div>
+          <div class="data-card">
+            <div class="data-icon">Radar</div>
+            <div class="data-name">Sentinel-1 SAR</div>
+            <div class="data-detail">2016 &ndash; 2023</div>
+          </div>
+          <div class="data-card">
+            <div class="data-icon">Socio-econ.</div>
+            <div class="data-name">FAOSTATS / Eurostat / CORINE</div>
+            <div class="data-detail">1990 &ndash; 2023</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PUBLICATIONS — navy-mid background -->
+      <div class="proj-section rv" style="background: var(--navy-mid); margin-left: -2rem; margin-right: -2rem; padding: 2.5rem 2rem;">
+        <p class="sec-lbl" style="color: var(--blue-l);">Publications</p>
+        <h2 class="sec-ttl" style="color: #fff;">Selected outputs</h2>
+        <a href="https://doi.org/10.1038/s41598-024-55283-3" target="_blank" class="pub">
+          <div class="pub-n">01</div>
+          <div>
+            <div class="pub-t">Mapping roadless areas in regions with contrasting human footprint</div>
+            <div class="pub-m"><em>Hoffmann M.T., Ostapowicz K., Bartoń K., Ibisch P.L., Selva N.</em><span class="pub-y">2024</span><br>Scientific Reports, 14, 4722</div>
+          </div>
+        </a>
+        <a href="https://doi.org/10.1002/ldr.4941" target="_blank" class="pub">
+          <div class="pub-n">02</div>
+          <div>
+            <div class="pub-t">Mapping grasslands' preservation potential: A case study from the northern Carpathians</div>
+            <div class="pub-m"><em>Szczęch M., Kania M., Loch J., Ostapowicz K., Struś P.</em><span class="pub-y">2024</span><br>Land Degradation &amp; Development, 35(2)</div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- ASIDE -->
+    <div class="proj-aside">
+
+      <div class="aside-card rv">
+        <div class="aside-card-lbl">Study area</div>
+        <div class="aside-item">
+          <span class="aside-item-lbl">Region</span>
+          <span class="aside-item-val">Central Europe</span>
+        </div>
+        <div class="aside-item">
+          <span class="aside-item-lbl">Countries</span>
+          <span class="aside-item-val">Czechia, Hungary, Poland, Slovakia</span>
+        </div>
+        <div class="aside-item">
+          <span class="aside-item-lbl">Ecosystem</span>
+          <span class="aside-item-val">Agricultural &amp; forest landscapes</span>
+        </div>
+      </div>
+
+      <div class="aside-card rv">
+        <div class="aside-card-lbl">UN SDGs</div>
+        <div class="kw-wrap">
+          <span class="kw-tag">SDG 13 Climate Action</span>
+          <span class="kw-tag">SDG 15 Life on Land</span>
+          <span class="kw-tag">SDG 11 Sustainable Cities</span>
+        </div>
+      </div>
+
+      <div class="aside-card rv">
+        <div class="aside-card-lbl">Team</div>
+        <div class="team-item">
+          <span class="team-name">Katarzyna Ostapowicz</span>
+          <span class="team-role">Principal Investigator</span>
+        </div>
+        <div class="team-item">
+          <span class="team-name">Mateusz Szczęch</span>
+          <span class="team-role">Postdoctoral Researcher</span>
+        </div>
+        <div class="team-item">
+          <span class="team-name">Konrad Turlej</span>
+          <span class="team-role">Postdoctoral Researcher</span>
+        </div>
+        <div class="team-item">
+          <span class="team-name">Monika Hoffmann</span>
+          <span class="team-role">Doctoral Researcher</span>
+        </div>
+        <div class="team-item">
+          <span class="team-name">Aleksandra Wasik</span>
+          <span class="team-role">Master Student</span>
+        </div>
+      </div>
+
+      <div class="aside-card rv">
+        <div class="aside-card-lbl">Collaboration</div>
+        <div class="collab-item">
+          <div class="collab-inst">University of California, Berkeley</div>
+          <div class="collab-names">LUC Lab, Dept. of Environmental Science, Policy &amp; Management</div>
+        </div>
+        <div class="collab-item">
+          <div class="collab-inst">Institute of Nature Conservation</div>
+          <div class="collab-names">Polish Academy of Sciences, Poland</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Katarzyna Ostapowicz &middot; All rights reserved</p>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -6,6 +6,12 @@
   <title>RS4FOR — Katarzyna Ostapowicz</title>
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230b1d35'/><text y='72' x='50' text-anchor='middle' font-size='48' font-family='Georgia,serif' fill='%234a8bb5'>KO</text></svg>">
+  <style>
+    .hero-slides { position: absolute; inset: 0; }
+    .hero-slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 1.8s ease-in-out; }
+    .hero-slide.active { opacity: 1; }
+    .hero-slide-overlay { position: absolute; inset: 0; background: rgba(11,29,53,.72); }
+  </style>
 </head>
 <body>
 
@@ -13,17 +19,31 @@
   <a href="../index.html" class="nav-logo">Katarzyna Ostapowicz</a>
   <ul>
     <li><a href="../index.html#about">About</a></li>
+    <li><a href="../index.html#degrees">Degrees</a></li>
+    <li><a href="../index.html#career">Career</a></li>
     <li><a href="../index.html#projects">Projects</a></li>
     <li><a href="../index.html#publications">Publications</a></li>
     <li><a href="../index.html#contact">Contact</a></li>
   </ul>
 </nav>
 
-<!-- HERO -->
+<!-- HERO with slideshow -->
 <section class="proj-hero">
-  <div class="proj-hero-bg"></div>
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image: url('../assets/images/image_about_1.jpg')">
+      <div class="hero-slide-overlay"></div>
+    </div>
+    <div class="hero-slide" style="background-image: url('../assets/images/image_project_2.jpg')">
+      <div class="hero-slide-overlay"></div>
+    </div>
+    <div class="hero-slide" style="background-image: url('../assets/images/image_about_2.jpg')">
+      <div class="hero-slide-overlay"></div>
+    </div>
+    <div class="hero-slide" style="background-image: url('../assets/images/image_background_2.jpg')">
+      <div class="hero-slide-overlay"></div>
+    </div>
+  </div>
   <div class="proj-hero-grid"></div>
-  <div class="proj-hero-topo"></div>
   <div class="proj-hero-in">
     <p class="h-label"><a href="../index.html#projects" style="color:inherit;text-decoration:none;">&#8592; All Projects</a> &nbsp;&middot;&nbsp; Remote Sensing &nbsp;&middot;&nbsp; Forest Ecology</p>
     <h1 class="h-name">RS4FOR</h1>
@@ -33,14 +53,14 @@
     </p>
     <div class="h-tags">
       <span class="h-tag">Forest Cover Change</span>
-      <span class="h-tag">Satellite Time Series</span>
-      <span class="h-tag">Machine Learning</span>
+      <span class="h-tag">Landsat &amp; Sentinel Time Series</span>
+      <span class="h-tag">SAR &amp; LiDAR Integration</span>
       <span class="h-tag">Polish Carpathians</span>
     </div>
   </div>
 </section>
 
-<!-- MAIN BODY — single section, white background -->
+<!-- MAIN BODY -->
 <section class="sec sec-wh">
   <div class="proj-body">
 
@@ -50,7 +70,7 @@
       <div class="proj-section rv">
         <p class="sec-lbl">Background</p>
         <h2 class="sec-ttl">Forest ecosystems under pressure</h2>
-        <p>The RS4FOR project addressed environmental monitoring of forest ecosystems in the Polish Carpathians — a region exemplifying temperate forests in mountainous terrain. By integrating passive and active remote sensing data, the project enhanced the accuracy and efficiency of detecting and monitoring changes in forest cover.</p>
+        <p>RS4FOR examined forest cover change in the Polish Carpathians by combining optical satellite time series — spanning over four decades from Landsat MSS to Sentinel-2 — with SAR and airborne LiDAR data. The project aimed to distinguish gradual forest modifications from abrupt conversions, and to characterise old-growth forest dynamics and health status at landscape scale.</p>
       </div>
 
       <div class="proj-section rv">
@@ -59,24 +79,24 @@
         <ul class="obj-list">
           <li class="obj-item">
             <span class="obj-n">01</span>
-            <span class="obj-txt"><strong>Forest cover dynamics</strong> — detection of conversions and modifications using multi-decadal Earth Observation datasets (1978–2020)</span>
+            <span class="obj-txt"><strong>Forest cover dynamics</strong> — detection of conversions and modifications using multi-decadal Earth Observation data (1978–2020)</span>
           </li>
           <li class="obj-item">
             <span class="obj-n">02</span>
-            <span class="obj-txt"><strong>Predictive modelling</strong> — robust models predicting changes in forest structure to support proactive management</span>
+            <span class="obj-txt"><strong>Predictive modelling</strong> — spatially explicit models of forest structural change to support landscape-scale management</span>
           </li>
           <li class="obj-item">
             <span class="obj-n">03</span>
-            <span class="obj-txt"><strong>Forest health assessment</strong> — advanced diagnostics enabling timely intervention to mitigate disease and degradation</span>
+            <span class="obj-txt"><strong>Forest health assessment</strong> — early detection of decline and disturbance through multi-source remote sensing</span>
           </li>
           <li class="obj-item">
             <span class="obj-n">04</span>
-            <span class="obj-txt"><strong>Old-growth forest conservation</strong> — insights into the status and dynamics of old-growth stands for conservation planning</span>
+            <span class="obj-txt"><strong>Old-growth characterisation</strong> — mapping and monitoring of old-growth stands for biodiversity and conservation assessments</span>
           </li>
         </ul>
       </div>
 
-      <!-- DATA — dark background, stays in left column -->
+      <!-- DATA — dark background -->
       <div class="proj-section bg-dark rv">
         <p class="sec-lbl">Data</p>
         <h2 class="sec-ttl">Earth Observation datasets</h2>
@@ -88,7 +108,7 @@
           </div>
           <div class="data-card">
             <div class="data-icon">Optical</div>
-            <div class="data-name">Sentinel-2</div>
+            <div class="data-name">Sentinel-2 MSI</div>
             <div class="data-detail">2016 &ndash; 2020</div>
           </div>
           <div class="data-card">
@@ -104,7 +124,7 @@
         </div>
       </div>
 
-      <!-- PUBLICATIONS — paper background, stays in left column -->
+      <!-- PUBLICATIONS — paper background, same as main site -->
       <div class="proj-section bg-paper rv">
         <p class="sec-lbl">Publications</p>
         <h2 class="sec-ttl">Selected outputs</h2>
@@ -143,10 +163,6 @@
           <span class="aside-item-val">2016 &ndash; 2019</span>
         </div>
         <div class="aside-item">
-          <span class="aside-item-lbl">Role</span>
-          <span class="aside-item-val">Principal Investigator</span>
-        </div>
-        <div class="aside-item">
           <span class="aside-item-lbl">Funder</span>
           <span class="aside-item-val">National Science Centre Poland</span>
         </div>
@@ -168,9 +184,13 @@
         <div class="aside-card-lbl">Keywords</div>
         <div class="kw-wrap">
           <span class="kw-tag">Forest cover change</span>
-          <span class="kw-tag">Satellite time series</span>
+          <span class="kw-tag">Landsat time series</span>
+          <span class="kw-tag">Sentinel-2</span>
+          <span class="kw-tag">SAR</span>
+          <span class="kw-tag">LiDAR</span>
           <span class="kw-tag">Machine learning</span>
-          <span class="kw-tag">Forest species mapping</span>
+          <span class="kw-tag">Old-growth forest</span>
+          <span class="kw-tag">Forest disturbance</span>
         </div>
       </div>
 
@@ -211,5 +231,15 @@
 </footer>
 
 <script src="../assets/js/main.js"></script>
+<script>
+  // Slideshow
+  const slides = document.querySelectorAll('.hero-slide');
+  let current = 0;
+  setInterval(() => {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }, 4000);
+</script>
 </body>
 </html>

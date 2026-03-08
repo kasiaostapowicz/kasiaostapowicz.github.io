@@ -14,16 +14,6 @@
     .h-name-proj { font-family: var(--serif); font-weight: normal; font-size: clamp(1.8rem, 4vw, 3.4rem); line-height: 1.15; color: #fff; letter-spacing: -.01em; opacity: 0; animation: fu .8s .25s forwards; }
   </style>
 </head>
-
-<script>
-  const slides = document.querySelectorAll('.hero-slide');
-  let current = 0;
-  setInterval(() => {
-    slides[current].classList.remove('active');
-    current = (current + 1) % slides.length;
-    slides[current].classList.add('active');
-  }, 4000);
-</script>
   
 <body>
 
@@ -221,13 +211,33 @@
 
 <script src="../assets/js/main.js"></script>
 <script>
-  const slides = document.querySelectorAll('.hero-slide');
-  let current = 0;
-  setInterval(() => {
-    slides[current].classList.remove('active');
-    current = (current + 1) % slides.length;
-    slides[current].classList.add('active');
-  }, 4000);
+  document.addEventListener('DOMContentLoaded', () => {
+    const slides = document.querySelectorAll('.hero-slide');
+    if (!slides.length) return;
+
+    const dotsWrap = document.createElement('div');
+    dotsWrap.style.cssText = 'position:absolute;bottom:1.5rem;left:50%;transform:translateX(-50%);display:flex;gap:.5rem;z-index:10;';
+    slides.forEach((_, i) => {
+      const d = document.createElement('div');
+      d.style.cssText = `width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,${i===0?'.9':'.3'});transition:background .3s;cursor:pointer;`;
+      d.addEventListener('click', () => goTo(i));
+      dotsWrap.appendChild(d);
+    });
+    document.querySelector('.proj-hero').appendChild(dotsWrap);
+
+    let current = 0;
+    function goTo(n) {
+      slides[current].classList.remove('active');
+      dotsWrap.children[current].style.background = 'rgba(255,255,255,.3)';
+      current = n;
+      slides[current].classList.add('active');
+      dotsWrap.children[current].style.background = 'rgba(255,255,255,.9)';
+    }
+
+    setInterval(() => goTo((current + 1) % slides.length), 4000);
+  });
 </script>
+
+
 </body>
 </html>

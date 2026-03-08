@@ -102,6 +102,7 @@ body { font-family: var(--sans); background: var(--paper); color: var(--navy); l
 .proj-list { border: 1px solid rgba(255,255,255,.07); border-radius: 3px; overflow: hidden; }
 .proj-row { display: grid; grid-template-columns: 110px 1fr 22px; gap: 1.8rem; align-items: center; padding: 1.6rem 1.8rem; background: rgba(255,255,255,.025); border-bottom: 1px solid rgba(255,255,255,.07); transition: background .18s; }
 .proj-row:last-child { border-bottom: none; }
+ a.proj-row { text-decoration: none; }
 .proj-row:hover { background: rgba(255,255,255,.07); }
 .proj-per { font-family: var(--mono); font-size: .67rem; color: rgba(255,255,255,.32); letter-spacing: .05em; line-height: 1.5; }
 .proj-bdg { display: inline-block; margin-top: .3rem; font-family: var(--mono); font-size: .59rem; text-transform: uppercase; letter-spacing: .1em; background: rgba(42,100,150,.4); color: var(--blue-l); border: 1px solid rgba(74,139,181,.25); padding: .15rem .44rem; border-radius: 2px; }

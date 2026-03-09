@@ -22,6 +22,19 @@
   </ul>
 </nav>
 
+<button class="nav-toggle" id="nav-toggle"><span></span><span></span><span></span></button>
+
+<div class="nav-overlay" id="nav-overlay">
+  <button class="nav-overlay-close" id="nav-overlay-close">&times;</button>
+  <a href="../index.html#about" onclick="document.getElementById('nav-overlay').classList.remove('open')">About</a>
+  <a href="../index.html#degrees" onclick="document.getElementById('nav-overlay').classList.remove('open')">Degrees</a>
+  <a href="../index.html#career" onclick="document.getElementById('nav-overlay').classList.remove('open')">Career</a>
+  <a href="../index.html#projects" onclick="document.getElementById('nav-overlay').classList.remove('open')">Projects</a>
+  <a href="../index.html#publications" onclick="document.getElementById('nav-overlay').classList.remove('open')">Publications</a>
+  <a href="../index.html#service" onclick="document.getElementById('nav-overlay').classList.remove('open')">Service</a>
+  <a href="../index.html#contact" onclick="document.getElementById('nav-overlay').classList.remove('open')">Contact</a>
+</div>
+
 <!-- HERO — NDVI animation as background -->
 <section class="proj-hero">
   <div class="proj-hero-anim" style="background-image:url('../assets/images/animation_trace.gif');"></div>

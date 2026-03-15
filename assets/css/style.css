@@ -29,14 +29,13 @@ body { font-family: var(--sans); background: var(--paper); color: var(--navy); l
 .nav ul { display: flex; gap: 1.8rem; list-style: none; }
 .nav ul a { font-family: var(--mono); font-size: .63rem; letter-spacing: .14em; text-transform: uppercase; color: rgba(255,255,255,.38); text-decoration: none; transition: color .2s; }
 .nav ul a:hover { color: rgba(255,255,255,.9); }
-.nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: .3rem; background: none; border: none; }
+.nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: .3rem; background: none; border: none; position: fixed; top: 1rem; right: 2rem; z-index: 101; }
 .nav-toggle span { display: block; width: 22px; height: 2px; background: rgba(255,255,255,.8); transition: all .3s; }
 .nav-overlay { display: none; position: fixed; inset: 0; background: rgba(11,29,53,.97); z-index: 999; flex-direction: column; align-items: center; justify-content: center; gap: 2rem; }
 .nav-overlay.open { display: flex; }
 .nav-overlay a { font-family: var(--mono); font-size: .8rem; letter-spacing: .2em; text-transform: uppercase; color: rgba(255,255,255,.7); text-decoration: none; }
 .nav-overlay a:hover { color: #fff; }
 .nav-overlay-close { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 1.5rem; color: rgba(255,255,255,.6); cursor: pointer; background: none; border: none; }
-
 
 /* ── HERO ── */
 .hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; background: var(--navy); overflow: hidden; padding: 7rem 2rem 6rem; }
@@ -171,7 +170,6 @@ footer p { font-family: var(--mono); font-size: .61rem; letter-spacing: .1em; co
   .nav-toggle { display: flex; }
   .career-row { grid-template-columns: 1fr; gap: .3rem; }
 }
-
 
 /* ── PROJECT SUBPAGES ── */
 .proj-hero { position: relative; min-height: 60vh; display: flex; flex-direction: column; justify-content: center; background: var(--navy); overflow: hidden; padding: 7rem 2rem 5rem; }

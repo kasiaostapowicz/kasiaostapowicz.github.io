@@ -83,17 +83,53 @@ body { font-family: var(--sans); background: var(--paper); color: var(--navy); l
 .about-txt p:first-of-type { font-family: var(--serif); font-size: 1.18rem; color: var(--navy); line-height: 1.75; }
 
 /* ── DEGREES ── */
-.sec-dark { background: var(--navy); }
-.sec-dark .sec-lbl { color: var(--blue-l); }
-.sec-dark .sec-ttl { color: #fff; }
-.deg-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; border: 1px solid rgba(255,255,255,.06); border-radius: 3px; overflow: hidden; background: rgba(255,255,255,.04); }
-.deg-card { padding: 2.2rem; background: rgba(255,255,255,.025); border-right: 1px solid rgba(255,255,255,.05); transition: background .25s; }
-.deg-card:last-child { border-right: none; }
-.deg-card:hover { background: rgba(255,255,255,.07); }
-.deg-yr { font-family: var(--serif); font-size: 2.4rem; font-weight: normal; color: var(--blue-l); opacity: .7; line-height: 1; margin-bottom: .8rem; }
-.deg-ttl { font-size: .87rem; font-weight: 600; color: rgba(255,255,255,.88); margin-bottom: .4rem; line-height: 1.45; }
-.deg-sub { font-family: var(--mono); font-size: .7rem; color: rgba(255,255,255,.32); letter-spacing: .03em; line-height: 1.6; }
+.deg-list {
+  margin-top: 4rem;
+  max-width: 760px;
+}
+.deg-row {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 2.5rem;
+  padding: 2.2rem 0;
+  border-top: 1px solid var(--line);
+}
+.deg-row:last-child {
+  border-bottom: 1px solid var(--line);
+}
+.deg-yr {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.14em;
+  color: var(--ink-mute);
+  padding-top: 0.4rem;
+}
+.deg-ttl {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+.deg-sub {
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.6rem;
+  letter-spacing: 0;
+}
+.deg-note {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--ink-mute);
+  line-height: 1.5;
+}
 
+@media (max-width: 640px) {
+  .deg-row { grid-template-columns: 1fr; gap: 0.8rem; }
+}
 /* ── CAREER ── */
 .career-list { border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
 .career-row { display: grid; grid-template-columns: 130px 1fr; gap: 1.8rem; align-items: center; padding: 1.4rem 1.8rem; background: #fff; border-bottom: 1px solid var(--line); transition: background .18s; }

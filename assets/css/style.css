@@ -248,7 +248,7 @@ footer p { font-family: var(--mono); font-size: 0.64rem; font-weight: 300; lette
 .hero-in { position: relative; z-index: 2; }
 
 .proj-hero-anim { position: absolute; inset: 0; background-size: cover; background-position: center; filter: grayscale(100%) contrast(1.04); z-index: 0; }
-.proj-hero::after { content: ''; position: absolute; inset: 0; background: rgba(250, 250, 250, 0.78); z-index: 1; }
+.proj-hero::after { content: ''; position: absolute; inset: 0; background: rgba(250, 250, 250, 0.62); z-index: 1; }
 .proj-hero-in { position: relative; z-index: 2; }
 
 /* project tiles with landscape bg */

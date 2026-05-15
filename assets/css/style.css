@@ -100,7 +100,7 @@ body { font-family: var(--sans); font-weight: 300; background: var(--bg); color:
 
 /* ── PROJECTS — grid of squares (BTS-style) ── */
 .proj-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border: none; border-top: 1px solid var(--line); border-left: 1px solid var(--line); border-radius: 0; overflow: visible; margin-top: 3rem; }
-.proj-row { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; aspect-ratio: 1 / 1; padding: 2.2rem; background: transparent; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-radius: 0; transition: background .35s ease; text-decoration: none; color: inherit; grid-template-columns: none; gap: 0; position: relative; }
+.proj-row { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; aspect-ratio: 1 / 1; padding: 2.2rem; background: transparent; border-radius: 0; transition: background .35s ease; text-decoration: none; color: inherit; grid-template-columns: none; gap: 0; position: relative; }
 a.proj-row { text-decoration: none; }
 .proj-row:hover { background: rgba(26, 26, 26, 0.03); padding-left: 2.2rem; }
 .proj-per { font-family: var(--mono); font-size: 0.7rem; font-weight: 300; color: var(--ink-mute); letter-spacing: 0.12em; line-height: 1.6; }
@@ -253,6 +253,6 @@ footer p { font-family: var(--mono); font-size: 0.64rem; font-weight: 300; lette
 
 /* project tiles with landscape bg */
 .proj-row.has-img { background-size: cover; background-position: center; background-color: white; background-blend-mode: luminosity; overflow: hidden; }
-.proj-row.has-img::before { content: ''; position: absolute; inset: 0; background: rgba(250, 250, 250, 0.82); filter: grayscale(100%); z-index: 1; transition: background .35s ease; }
-.proj-row.has-img:hover::before { background: rgba(250, 250, 250, 0.68); }
+.proj-row.has-img::before { content: ''; position: absolute; inset: 0; background: rgba(250, 250, 250, 0.20); filter: grayscale(100%); z-index: 1; transition: background .35s ease; }
+.proj-row.has-img:hover::before { background: rgba(250, 250, 250, 0.05); }
 .proj-row.has-img > * { position: relative; z-index: 2; }

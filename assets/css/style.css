@@ -252,7 +252,7 @@ footer p { font-family: var(--mono); font-size: 0.64rem; font-weight: 300; lette
 .proj-hero-in { position: relative; z-index: 2; }
 
 /* project tiles with landscape bg */
-.proj-row.has-img { background-size: cover; background-position: center; overflow: hidden; }
+.proj-row.has-img { background-size: cover; background-position: center; background-color: white; background-blend-mode: luminosity; overflow: hidden; }
 .proj-row.has-img::before { content: ''; position: absolute; inset: 0; background: rgba(250, 250, 250, 0.82); filter: grayscale(100%); z-index: 1; transition: background .35s ease; }
 .proj-row.has-img:hover::before { background: rgba(250, 250, 250, 0.68); }
 .proj-row.has-img > * { position: relative; z-index: 2; }

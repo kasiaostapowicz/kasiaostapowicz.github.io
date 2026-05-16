@@ -26,26 +26,27 @@ if (navOverlayClose) navOverlayClose.addEventListener('click', () => navOverlay.
 // Slideshow
 document.addEventListener('DOMContentLoaded', () => {
   const slides = document.querySelectorAll('.hero-slide');
-  if (!slides.length) return;
+  if (slides.length < 2) return;
+  const heroEl = document.querySelector('.hero') || document.querySelector('.proj-hero');
+  if (!heroEl) return;
 
   const dotsWrap = document.createElement('div');
   dotsWrap.style.cssText = 'position:absolute;bottom:1.5rem;left:50%;transform:translateX(-50%);display:flex;gap:.5rem;z-index:10;';
   slides.forEach((_, i) => {
     const d = document.createElement('div');
-    d.style.cssText = `width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,${i===0?'.9':'.3'});transition:background .3s;cursor:pointer;`;
+    d.style.cssText = `width:6px;height:6px;border-radius:50%;background:rgba(26,26,26,${i===0?'.7':'.25'});transition:background .3s;cursor:pointer;`;
     d.addEventListener('click', () => goTo(i));
     dotsWrap.appendChild(d);
   });
-  document.querySelector('.proj-hero').appendChild(dotsWrap);
+  heroEl.appendChild(dotsWrap);
 
   let current = 0;
   function goTo(n) {
     slides[current].classList.remove('active');
-    dotsWrap.children[current].style.background = 'rgba(255,255,255,.3)';
+    dotsWrap.children[current].style.background = 'rgba(26,26,26,.25)';
     current = n;
     slides[current].classList.add('active');
-    dotsWrap.children[current].style.background = 'rgba(255,255,255,.9)';
+    dotsWrap.children[current].style.background = 'rgba(26,26,26,.7)';
   }
-
   setInterval(() => goTo((current + 1) % slides.length), 4000);
 });
